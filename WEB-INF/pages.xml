@@ -398,7 +398,7 @@
 			</component>	
 			<component name="pl.psnc.dlibra.web.comp.pages.components.EdiMetaLangChooserComponent">
 	           <place>left</place>
-     	       <position>2</position>
+     	       <position>3</position>
 			</component>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.EditionMetadataComponent">
 	           <place>right</place>
@@ -410,7 +410,7 @@
 			</component>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.EditionMetadataExportComponent">
 	           <place>left</place>
-     	       <position>3</position>
+     	       <position>2</position>
 			</component>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.EditionBookmarkInfoComponent">
 	           <place>left</place>
@@ -590,12 +590,17 @@
   	<page name="collectiondescription" layout="simple-inv" inherits="collection-page">
 		<actions>
 			<action name="ClearQueryAction"/>
+                        <action name="ChangeMetaLangAction"/>
 		</actions>
 		<components>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.CollectionBoxComponent">
 	           <place>left</place>
      	       <position>1</position>
-			</component>	
+			</component>				
+               <component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
+	           <place>left</place>
+     	       <position>3</position>
+			</component> 
 			<component name="pl.psnc.dlibra.web.comp.pages.components.SimpleSearchComponent">
     	       <place>right</place>
    	       	   <position>0</position>
@@ -617,7 +622,10 @@
   	</page>
   	
   	<page name="pubindex" layout="simple-inv" inherits="collection-page">
-		<components>
+             <actions>
+                 <action name="ChangeMetaLangAction"/>
+             </actions>	
+	<components>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.CollectionsPubsComponent">
     	       <place>right</place>
    	       	   <position>1</position>
@@ -628,8 +636,12 @@
 			</component>	
 			<component name="pl.psnc.dlibra.web.comp.pages.components.OAIPMHLinkComponent">
 	           <place>left</place>
+     	       <position>2</position>
+			</component>			
+               <component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
+	           <place>left</place>
      	       <position>3</position>
-			</component>
+			</component> 
 		</components>	
   	</page>
   	
@@ -664,11 +676,19 @@
   	</page>
   	
   	<page name="latest" layout="simple-inv" inherits="collection-page">
-		<components>
+	
+             <actions>
+                 <action name="ChangeMetaLangAction"/>
+             </actions>	
+	<components>
 			<component name="pl.psnc.dlibra.web.comp.pages.components.CollectionBoxComponent">
 	           <place>left</place>
      	       <position>1</position>
-			</component>	
+			</component>				
+               <component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
+	           <place>left</place>
+     	       <position>3</position>
+			</component> 
 			<component name="pl.psnc.dlibra.web.comp.pages.components.LatestEditionsComponent">
     	       <place>right</place>
    	       	   <position>1</position>
@@ -835,7 +855,11 @@
 			<component name="pl.psnc.dlibra.web.comp.pages.components.InformationBoxComponent">
 	           <place>left</place>
      	       <position>1</position>
-			</component>
+			</component>			
+               <component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
+	           <place>left</place>
+     	       <position>3</position>
+			</component> 
 		</components>	
   	</page>
 
@@ -1105,22 +1129,22 @@
 	           <place>left</place>
      	       <position>2</position>
 			</component>
-			<component name="pl.psnc.dlibra.web.comp.pages.components.InformationBoxComponent">
+<!--			<component name="pl.psnc.dlibra.web.comp.pages.components.InformationBoxComponent">
 	           <place>left</place>
      	       <position>3</position>
-			</component>
+			</component> -->
 			<component name="pl.psnc.dlibra.web.comp.pages.components.ShortStatsComponent">
 	           <place>left</place>
      	       <position>4</position>
 			</component>
-			<component name="pl.psnc.dlibra.web.comp.pages.components.RSSComponent">
+<!--			<component name="pl.psnc.dlibra.web.comp.pages.components.RSSComponent">
 	           <place>left</place>
      	       <position>5</position>
-			</component>
-			<component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
+			</component> -->
+<!--			<component name="pl.psnc.dlibra.web.comp.pages.components.MetaLangChooserComponent">
 	           <place>left</place>
      	       <position>6</position>
-			</component>
+			</component> --> 
 			<component name="pl.psnc.dlibra.web.comp.pages.components.OAIPMHLinkComponent">
 	           <place>left</place>
      	       <position>7</position>
