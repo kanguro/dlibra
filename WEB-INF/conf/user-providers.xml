@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ${homepage} variable will be replaced with whole address (with servlet name) of main page.
+  If loginPage element is empty provider would be ommited during generating of login page.
+  Order of *InformationProvider elements is important!
+-->
+<list>
+
+
+  <!-- 
+    Uncomment this provider to use information taken from 
+    external system
+   -->
+  <!-- 
+  <pl.psnc.dlibra.web.comp.user.external.GenericUserInformationProvider>
+	<configuration>
+     <loginPage>${homepage}login</loginPage>
+     <logoutPage>${homepage}main?action=LogoutAction</logoutPage>
+     <loginPagePosition>3</loginPagePosition>
+     <methodNameResourceKey>uip.ehms.name</methodNameResourceKey>     
+	</configuration>
+    <additionalConfiguration> 
+     <sourceId>ehms</sourceId>
+     <loginXPathQuery>//login/text()</loginXPathQuery>
+     <emailXPathQuery>//email/text()</emailXPathQuery>
+    </additionalConfiguration> 
+  </pl.psnc.dlibra.web.comp.user.external.GenericUserInformationProvider>
+  -->
+
+  <!-- 
+  	Uncomment this provider to use information taken from 
+  	Digital Library Federation authentication network
+  -->
+  <!--
+  <pl.psnc.dlibra.web.guanxi.resources.GxUserInformationProvider>
+   <configuration>
+     <loginPage>${homepage}gx?url=${homepage}&amp;action=RewritePodAction</loginPage>
+     <logoutPage>${homepage}gxlogout?action=GuardLogoutAction</logoutPage>
+     <loginPagePosition>3</loginPagePosition>
+     <methodNameResourceKey>uip.gx.name</methodNameResourceKey>
+   </configuration>         
+  </pl.psnc.dlibra.web.guanxi.resources.GxUserInformationProvider>  
+  -->
+
+  <!-- 
+    CAS. Remember to put LDAP configuration to file shown in ldapConfiguration tag. 
+  -->
+  <!-- 
+  <pl.psnc.dlibra.web.comp.user.ldap.CasUserInformationProvider>
+    <configuration>
+     <loginPage>http://dlibra.psnc.pl/cas/login?service=${prevpage}</loginPage>
+     <logoutPage>${homepage}main?action=LogoutAction</logoutPage>
+     <loginPagePosition>2</loginPagePosition>
+     <methodNameResourceKey>uip.cas.name</methodNameResourceKey>
+    </configuration>
+    <additionalConfiguration> 
+     <ldapConfiguration>WEB-INF/conf/ldap.properties</ldapConfiguration>
+     <userAttributesDefaults>
+      <property name="givenName" value="dLibra"/>
+      <property name="cn" value=""/>
+      <property name="mail" value=""/>
+     </userAttributesDefaults>
+     <emailAttributeName>mail</emailAttributeName>
+    </additionalConfiguration> 
+  </pl.psnc.dlibra.web.comp.user.ldap.CasUserInformationProvider>  
+   -->
+  
+  <!-- 
+    LDAP. Remember to put LDAP configuration to file shown in ldapConfiguration tag. 
+  --> 
+  <!--
+  <pl.psnc.dlibra.web.comp.user.ldap.LDAPUserInformationProvider>
+   <configuration>
+    <loginPage>${homepage}login-ldap</loginPage>
+    <logoutPage>${homepage}main?action=LogoutAction</logoutPage>
+    <loginPagePosition>2</loginPagePosition>
+    <methodNameResourceKey>uip.ldap.name</methodNameResourceKey>
+   </configuration>
+   <additionalConfiguration> 
+    <ldapConfiguration>WEB-INF/conf/ldap.properties</ldapConfiguration>
+    <userAttributesDefaults>
+     <property name="givenName" value="dLibra"/>
+     <property name="cn" value=""/>
+     <property name="mail" value=""/>
+    </userAttributesDefaults>
+    <emailAttributeName>mail</emailAttributeName>
+   </additionalConfiguration> 
+  </pl.psnc.dlibra.web.comp.user.ldap.LDAPUserInformationProvider>
+  -->
+
+  <!--  
+    Default user information provider. Don't modify this.
+   -->	
+  <pl.psnc.dlibra.web.comp.user.DlibraUserInformationProvider>
+    <configuration>
+     <loginPage>${homepage}login</loginPage>
+     <logoutPage>${homepage}main?action=LogoutAction</logoutPage>
+     <loginPagePosition>1</loginPagePosition>
+     <methodNameResourceKey>uip.dlibra.name</methodNameResourceKey>
+    </configuration>
+    <additionalConfiguration>
+      <publicUserGroup>Użytkownicy publiczni</publicUserGroup> 
+    </additionalConfiguration> 
+  </pl.psnc.dlibra.web.comp.user.DlibraUserInformationProvider>
+  
+</list>

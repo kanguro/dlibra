@@ -1,0 +1,63 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+
+<!-- Check Media Player Version -->
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var WMP7;
+
+if(window.ActiveXObject)
+{
+    WMP7 = new ActiveXObject("WMPlayer.OCX.7");
+}
+else if (window.GeckoActiveXObject)
+{
+     WMP7 = new GeckoActiveXObject("WMPlayer.OCX.7");
+}
+
+// Windows Media Player 7 Code
+if ( WMP7 )
+{
+     document.write ('<OBJECT ID=MediaPlayer ');
+     document.write (' CLASSID=CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6');
+     document.write (' standby="Loading Microsoft Windows Media Player components..."');
+     document.write (' TYPE="application/x-oleobject" width="$width" height="$height">');
+     document.write ('<PARAM NAME="url" VALUE="${completeContentUrl}">');
+     document.write ('<PARAM NAME="AutoStart" VALUE="true">');
+     document.write ('<PARAM NAME="ShowControls" VALUE="1">');
+     document.write ('<PARAM NAME="uiMode" VALUE="mini">');
+     document.write ('</OBJECT>');
+}
+
+// Windows Media Player 6.4 Code
+else
+{
+	
+     //IE Code
+     document.write ('<OBJECT ID=MediaPlayer ');
+     document.write ('CLASSID=CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95 ');
+     document.write ('CODEBASE=http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715 ');
+     document.write ('standby="Loading Microsoft Windows Media Player components..." ');
+     document.write ('TYPE="application/x-oleobject" width="$width" height="$height">');
+     document.write ('<PARAM NAME="FileName" VALUE="${completeContentUrl}">');
+     document.write ('<PARAM NAME="AutoStart" VALUE="true">');
+     document.write ('<PARAM NAME="ShowControls" VALUE="1">');
+
+     //Netscape code
+     document.write ('    <Embed type="application/x-mplayer2"');
+     document.write ('        pluginspage="http://www.microsoft.com/windows/windowsmedia/"');
+     document.write ('        filename="${completeContentUrl}"');
+     document.write ('        src="${completeContentUrl}"');
+     document.write ('        Name="MediaPlayer"');
+     document.write ('        ShowControls="1"');
+     document.write ('        ShowDisplay="1"');
+     document.write ('        ShowStatusBar="1"');
+     document.write ('        width="$width"');
+     document.write ('        height="$height">');
+     document.write ('    </embed>');
+
+     document.write ('</OBJECT>');
+}
+
+</SCRIPT>	

@@ -1,0 +1,37 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+##parse($completeContentBaseUrl)
+<h2>EXPRESSION TEST PAGE</h2>
+PageId:
+#pageId() 
+<br/>
+hurl+srvurl: $!{homepageUrl}$!{servletName} <br/>
+completeUrl: $!{completeContentBaseUrl} <br/>
+handlerUrl: $!{pathToHandler} <br/>
+completeContentUrl: $!{completeContentUrl} <br/>
+settings: $!{settings} <br/>
+<h2>Expressions List:</h2>
+<table>
+#*
+	$expression.get(0) == xml
+	$expression.get(1) == depth avi
+	$expression.get(2) == depth max pic
+	$expression.get(3) == depth min pic
+	$expression.get(4) == depth start pic
+	$expression.get(5) == rgb avi
+	$expression.get(6) == rgb max pic
+	$expression.get(7) == rgb min pic
+	$expression.get(8) == rgb start pic
+	$expression.get(9) == type
+	$expression.get(10) == kind
+
+*#
+
+#foreach( $expression in $expressions )
+    <tr>
+		#foreach( $expressionData in $expression )
+			<td><a href="$completeContentBaseUrl/$expressionData">$expressionData</a></td>
+		#end
+	</tr>
+#end
+</table>

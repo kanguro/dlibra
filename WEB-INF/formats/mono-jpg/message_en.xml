@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="jpg.loading">Please wait...</entry>
+<entry key="jpg.errorImage">Error occurred while loading image</entry>
+<entry key="jpg.availablePages">Available pages</entry>
+<entry key="jpg.zoomOptions">Zoom options</entry>
+<entry key="jpg.rotateLeft">Rotate left</entry>
+<entry key="jpg.rotateRight">Rotate right</entry>
+<entry key="jpg.next">Next</entry>
+<entry key="jpg.previous">Previous</entry>
+<entry key="jpg.nextPage">Next page</entry>
+<entry key="jpg.previousPage">Previous page</entry>
+<entry key="displayed.name">JPG gallery viewer</entry>
+<entry key="message.title">JPG gallery viewer</entry>
+<entry key="message.body"><![CDATA[
+To view JPG presentation using JavaFX applet you must install 
+Oracle's Java. You can download it 
+from  <a href="http://java.com" target="_blank">Java.com</a>.
+<p id="operaAddWarn" class="operaAlert" style='display:none;'>Warning! The Opera browser does not support dLibra JavaFX applets.</p>
+]]></entry>
+<entry key="message.succ.title">Required software is installed.</entry>
+<entry key="test.error.title">Required software is not installed!</entry>
+<entry key="test.error.opera.title"><![CDATA[Currently JavaFX applet is not supported in Opera browser.<p>Try other JPG view option or open presentation in other browser(e.g. Firefox).</p>]]></entry>
+</properties>

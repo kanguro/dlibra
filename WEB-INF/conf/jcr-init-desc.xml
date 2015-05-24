@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr-content>
+ <!-- 
+   Description of initial content of readers application repository. Here You can also
+   find specification of content migration from previous dLibra versions.
+ -->
+ <node-content>
+    <name>UserPreferences</name>
+    <migrationClass>pl.psnc.dlibra.web.comp.resources.migration.UserPreferencesMigration</migrationClass>
+ </node-content>
+
+ <node-content>
+    <name>ErrorMessageItem</name>
+    <defaultValuesFile>admin-errors.xml</defaultValuesFile>
+ </node-content>
+ 
+ <node-content>
+    <name>HelpItem</name>
+    <defaultValuesFile>default-help-pages.xml</defaultValuesFile>
+    <migrationClass>pl.psnc.dlibra.web.comp.resources.migration.HelpPagesMigration</migrationClass>
+ </node-content>
+ 
+ <node-content>
+    <name>NewsItem</name>
+ </node-content>
+ 
+ <node-content>
+    <name>ComponentElementItem</name>
+    <defaultValuesFile>admin-components.xml</defaultValuesFile>
+ </node-content>
+ 
+ <node-content>
+   <name>LibraryStat</name>
+ </node-content>
+ 
+ <node-content>
+   <name>BasicLibraryStat</name>
+ </node-content>
+ 
+ <node-content>
+   <name>MonthStatisticSet</name>
+ </node-content>
+ 
+ <node-content>
+   <name>EditionStatictiSet</name>
+ </node-content>
+  
+</jcr-content> 

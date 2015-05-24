@@ -1,0 +1,7 @@
+<Filters xmlns="urn:guanxi:filters">
+  <!--
+  <Filter name="UserAccountabilityFilter"
+          description="Logs user information to satisfy section 6 of the JISC federation"
+          className="org.guanxi.idp.filters.UserAccountabilityFilter" />
+  -->
+</Filters>

@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    color: #333;
+    padding: 1.5em
+}
+
+h2 { font-size: 150%; color: #ff4000; }
+h3 { color: #ff4000; }
+a:link { color: #ff4000;}
+a:active { color: #ff2000;}
+a:visited { color: #4e4e4e;}

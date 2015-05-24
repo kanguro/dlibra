@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>DL</ShortName>
+  <LongName>Digital library of facial expressions and emotions</LongName>
+  <Image height="16" width="16" type="image/jpeg">http://dlibra-app:8080/DL_en.jpg</Image>
+  <Tags>dLibra, creator, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core, publications, edition, book, short story, brochure, print, bookshop, platform system manage digital libraries, sources, wielkopolska biblioteka cyfrowa, naukowa, academic, Poznan, Poznan Foundation of scientific libraries, dlibra, libra, publishing, editing, author, writer, poet, poem, history, lyric, prose, poetry, publication description
+, cultural inheritance, catalogue, education, monograph, manuals,  regional materials</Tags>
+  <Description>dLibra gives you Internet access to eductional resources, cultural inheritance, regional metarials and music.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="http://dlibra-app:8080/dlibra/results?isExpandable=off&amp;dirids=1&amp;queryType=-3&amp;query={searchTerms}&amp;isRemote=off&amp;action=SearchAction" />
+  <Url type="application/rss+xml" template="http://dlibra-app:8080/dlibra/results.rss?isExpandable=off&amp;dirids=1&amp;queryType=-3&amp;query={searchTerms}&amp;isRemote=off&amp;encode=true&amp;action=SearchAction" />
+  <Developer>Poznan Supercomputing and Networking Center</Developer>
+</OpenSearchDescription>

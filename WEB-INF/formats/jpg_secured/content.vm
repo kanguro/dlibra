@@ -1,0 +1,11 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+<applet archive="${pathToHandler}/jpgViewer.jar"
+      			name="viewer" code="pl/psnc/dlibra/applet/jpg/viewer/ViewerApplet.class" 
+				height="${height}" width="${width}" >
+            <param name="initialUrl" value="${completeContentUrl}"/>
+            <param name="sessionId" value="${sessionid}"/>
+			<param name="java_arguments" value="-Xm80m -Xmx128m"/> 
+			<param name="userLang" value="${lang}"/>
+ <div style="margin:50px auto;width:500px;">${message.getProperty("message.body")} <a href="http://java.com/">http://java.com/</a>.</div>
+</applet>

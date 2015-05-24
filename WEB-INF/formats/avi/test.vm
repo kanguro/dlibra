@@ -1,0 +1,45 @@
+<script type="text/javascript" src="${homepageUrl}/style/common/js/detection/pluginDetector.js">
+</script>
+<script type="text/javascript">
+
+ContentHandling.tests["${warn_handler_id}"] = function(){
+
+	var redirectAfterTest = '$redirectAfterTest';
+	var successRedirect = '$finalContentUrl';
+	var failureRedirect = '$listOfHandlersUrl';
+	
+	#set($successMessage = "${message.getProperty('test.success.title')}")
+	#set($failureMessage = "${message.getProperty('test.error.title')}")
+	var successMessage = '${escapeUtil.escapeForPlainJS($successMessage)}';
+	var failureMessage = '${escapeUtil.escapeForPlainJS($failureMessage)}';
+	
+	var wmpInstalled = installedPlugins['windows-media-player'];
+	var handlerId = "${warn_handler_id}";
+	
+	if(wmpInstalled){
+		if(redirectAfterTest == 'true'){	
+			window.location.href = homePageUrl + successRedirect;
+		}else{
+			if(typeof ContentHandling.testResults["${warn_handler_id}"] != 'undefined'){
+				ContentHandling.testResults["${warn_handler_id}"].onSuccess(successMessage);
+			}
+		}
+	}else{
+		if(redirectAfterTest == 'true'){
+			window.location.href = homePageUrl + failureRedirect;
+		}else{
+			if(typeof ContentHandling.testResults["${warn_handler_id}"] != 'undefined'){
+				ContentHandling.testResults["${warn_handler_id}"].onFailure(failureMessage);
+			}
+		}
+	}
+
+};
+
+$(function(){
+	## execute testing
+	ContentHandling.tests["${warn_handler_id}"]();
+});
+
+</script>
+	

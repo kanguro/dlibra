@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+ <pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+    <link>Przykładowa strona informacyjna</link>
+    <href>example-page</href>
+	<place>1</place> 
+	<help>true</help>
+    <id>example-page</id>
+    <localeName>pl</localeName>
+ </pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>		
+ <pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+    <link>Example page</link>
+    <href>example-page</href>
+	<place>1</place> 
+	<help>true</help>
+    <id>example-page</id>
+    <localeName>en</localeName>
+ </pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>		
+ <pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+    <link>Frequently asked questions</link>
+    <href>faq</href>
+	<place>4</place> 
+	<help>true</help>
+    <id>faq</id>
+    <localeName>en</localeName>
+ </pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>		
+ <pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+    <link>Contact</link>
+    <href>javascript:showContact('$homeURL')</href>
+	<place>5</place> 
+	<help>false</help>
+    <id>contactLink</id>
+    <localeName>en</localeName>
+ </pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+ <pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+    <link>Kontakt</link>
+    <href>javascript:showContact('$homeURL')</href>
+	<place>5</place> 
+	<help>false</help>
+    <id>contactLink</id>
+    <localeName>pl</localeName>
+ </pl.psnc.dlibra.web.comp.resources.item.ComponentElementItem>
+</list>

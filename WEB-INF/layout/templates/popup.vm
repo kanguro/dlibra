@@ -1,0 +1,29 @@
+#parse("parts/header.vm")
+
+<div class="popup_header" >
+	
+		<a href="${homepageUrl}${servletName}" target="_blank" id="imgLink">
+			<img src="${homepageUrl}/style/dlibra/${styleVariant}/mb-logo-sm.png" alt="${res.getProperty("base.library.full")}"  /> 
+		</a>
+		<a href="${homepageUrl}${servletName}" target="_blank" id="textLink">
+			${res.getProperty("base.library.full")} 
+		</a>
+		
+</div>
+	
+
+		<div class="left">
+  		   #foreach( $comp in $popup)
+  		   	#if ( ${comp.ComponentTitle} ) 
+			 <h3> 
+			 	 $!{comp.ComponentTitle}
+			 </h3>
+			#end 
+			 <div class="left_box">
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+  		   #end
+		</div>
+		
+#parse("parts/bottom.vm")
+	

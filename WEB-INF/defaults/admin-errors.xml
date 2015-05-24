@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Nieznany sposób prezentacji treści</title>
+    <info>Żądany format prezentacji treści nie istniej.</info>
+    <errorCode>500</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.IncorrectFormatHandlerException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Sesja wygasła</title>
+    <info>Zaloguj się ponownie lub wróć do strony głównej...</info>
+    <errorCode>409</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.MissingRequestParameterException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Błąd wewnętrzny</title>
+    <info>Wystąpił błąd wewnętrzny - prosimy o powrót do strony 
+				głównej.</info>
+    <errorCode>500</errorCode>
+    <localeName>pl</localeName>
+    <id>UnknownError</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Wybrana edycja nie jest jeszcze opublikowana</title>
+    <info>Wybrana edycja nie jest jeszcze opublikowana - spróbuj 
+				później.</info>
+    <errorCode>404</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.web.comp.exceptions.EditionNotPublishedException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Zbyt ogólne zapytanie</title>
+    <info>Wydane zapytanie jest zbyt ogólne.</info>
+    <errorCode>400</errorCode>
+    <localeName>pl</localeName>
+    <id>org.apache.lucene.search.BooleanQuery$TooManyClauses</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Brak elementu o podanym identyfikatorze.</title>
+    <info>Element (publikacja, wydanie, kolekcja etc.) o podanym 
+				identyfikatorze nie istnieje.</info>
+    <errorCode>404</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.service.IdNotFoundException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Zasób nie znaleziony</title>
+    <info>Żądany zasób nie został znaleziony.</info>
+    <errorCode>404</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.PageNotFoundException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Serwer dLibra nie jest dostepny</title>
+    <info>Serwer systemu dLibra nie jest dostępny.</info>
+    <errorCode>500</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.mgmt.UnavailableServiceException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Zasób nie znaleziony</title>
+    <info>Żądany zasób nie został znaleziony.</info>
+    <errorCode>404</errorCode>
+    <localeName>pl</localeName>
+    <id>404</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Błędne zapytanie</title>
+    <info>Wprowadzone zapytanie zawiera niepoprawne znaki lub 
+				wyrażenia, bądź też jest niepoprawnie sformułowane.</info>
+    <errorCode>400</errorCode>
+    <localeName>pl</localeName>
+    <id>pl.psnc.dlibra.web.comp.exceptions.WrongQueryFormatException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Serwer systemu dLibra nie jest dostępny</title>
+    <info>Serwer systemu dLibra nie jest chwilowo dostępny. Spróbuj ponownie za chwilę...</info>
+    <errorCode>500</errorCode>
+    <localeName>pl</localeName>
+    <id>java.rmi.NoSuchObjectException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Serwer systemu dLibra nie jest dostępny</title>
+    <info>Serwer systemu dLibra nie jest chwilowo dostępny. Spróbuj ponownie za chwilę...</info>
+    <errorCode>500</errorCode>
+    <localeName>pl</localeName>
+    <id>java.rmi.MarshalException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Session expired</title>
+    <info>Please login again or return to main page...</info>
+    <errorCode>409</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.MissingRequestParameterException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Internal error</title>
+    <info>Internal error occured - please return to main page.</info>
+    <errorCode>500</errorCode>
+    <localeName>en</localeName>
+    <id>UnknownError</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Edition is not published</title>
+    <info>This edition is not published - try again later.</info>
+    <errorCode>404</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.web.comp.exceptions.EditionNotPublishedException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Too general query</title>
+    <info>Query is to general. Try add more keywords.</info>
+    <errorCode>400</errorCode>
+    <localeName>en</localeName>
+    <id>org.apache.lucene.search.BooleanQuery$TooManyClauses</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Element with given id not found.</title>
+    <info>Element (publication, edition, collection
+				etc.) with given id does not exist.</info>
+    <errorCode>404</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.service.IdNotFoundException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Resource not found.</title>
+    <info>Requested resource was not found.</info>
+    <errorCode>404</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.PageNotFoundException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>dLibra server not available</title>
+    <info>dlibra server is not available.</info>
+    <errorCode>500</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.mgmt.UnavailableServiceException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Resource not found.</title>
+    <info>Requested resource was not found.</info>
+    <errorCode>404</errorCode>
+    <localeName>en</localeName>
+    <id>404</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Wrong query</title>
+    <info>Entered query contains incorrect characters or expressions.</info>
+    <errorCode>400</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.web.comp.exceptions.WrongQueryFormatException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>dlibra server is unavailable</title>
+    <info>Problem with connection to dLibra server. Please try again later...</info>
+    <errorCode>500</errorCode>
+    <localeName>en</localeName>
+    <id>java.rmi.NoSuchObjectException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>dlibra server is unavailable</title>
+    <info>Problem with connection to dLibra server. Please try again later...</info>
+    <errorCode>500</errorCode>
+    <localeName>en</localeName>
+    <id>java.rmi.MarshalException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+  <pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+    <title>Unknown format handler</title>
+    <info>Request content format presentation handler does not exist.</info>
+    <errorCode>500</errorCode>
+    <localeName>en</localeName>
+    <id>pl.psnc.dlibra.web.common.exceptions.IncorrectFormatHandlerException</id>
+  </pl.psnc.dlibra.web.common.resource.ErrorMessageItem>
+</list>

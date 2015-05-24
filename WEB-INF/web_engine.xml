@@ -1,0 +1,43 @@
+
+  <!-- Guanxi Engine -->
+  <servlet>
+    <display-name>Guanxi Service Provider Engine</display-name>
+    <servlet-name>Engine</servlet-name>
+    <servlet-class>org.guanxi.sp.engine.Engine</servlet-class>
+    <load-on-startup>1</load-on-startup>
+    <init-param>
+      <param-name>configFile</param-name>
+      <param-value>WEB-INF/guanxi_sp_engine/config/guanxi-sp-engine.xml</param-value>
+    </init-param>
+  </servlet>
+
+  <!-- Guanxi WAYFLocation Service -->
+  <servlet>
+    <display-name>Guanxi Service Provider WAYFLocation Service</display-name>
+    <servlet-name>WAYFLocation</servlet-name>
+    <servlet-class>org.guanxi.sp.engine.WAYFLocation</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+
+  <!-- Guanxi Engine CA -->
+  <servlet>
+    <display-name>Guanxi Service Provider CA</display-name>
+    <servlet-name>CA</servlet-name>
+    <servlet-class>org.guanxi.sp.engine.CA</servlet-class>
+    <load-on-startup>3</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Engine</servlet-name>
+    <url-pattern>*.guanxiEngineAuthCS</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>WAYFLocation</servlet-name>
+    <url-pattern>*.guanxiWAYFLocation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CA</servlet-name>
+    <url-pattern>*.CA</url-pattern>
+  </servlet-mapping>

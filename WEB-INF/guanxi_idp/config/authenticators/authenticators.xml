@@ -1,0 +1,26 @@
+<authenticators xmlns="urn:guanxi:idp">
+  <!-- This file tells the Guanxi Identity Provider which authenticators to load.
+       For each authentication system you may have, you can uncomment an
+       authenticator entry for it and the Guanxi Identity Provider will use each
+       one in turn to try and authenticate users. It will use the first
+       successful authentication event.
+  -->
+
+  <!-- Flat file authenticator -->
+  <!--
+  <authenticator type="org.guanxi.idp.authenticators.FlatFileAuthenticator" />
+  -->
+  
+  <!-- dLibraServer authenticator -->
+  <authenticator type="pl.psnc.dlibra.web.guanxi.idp.authenticators.DLibraServerAuthenticator" />
+  
+  <!-- LDAP authenticator -->
+  <!--
+  <authenticator type="org.guanxi.idp.authenticators.LDAPAuthenticator" />
+  -->
+
+  <!-- Bodington authenticator -->
+  <!--
+  <authenticator type="org.guanxi.idp.authenticators.BodingtonAuthenticator" />
+  -->
+</authenticators>

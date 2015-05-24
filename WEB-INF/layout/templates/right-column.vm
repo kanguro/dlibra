@@ -1,0 +1,160 @@
+#parse("parts/header.vm")
+	<script type="text/javascript">
+		
+		var CustomEvents = {
+			
+			init : function(){
+				$("#ContentTriggerWithImage").click(function(e){
+					e.preventDefault();
+					var url = $(this).attr('href');
+					window.location.href = url; 	
+					return false;
+				});
+			},
+			
+			resultsContentModal : function(){
+				$(".contentTrigger").each(function(){
+					$(this).click(function(e){
+						e.preventDefault();
+						var url = $(this).attr('href');
+						window.location.href = url; 	
+						return false;
+					});
+				});
+			},
+			
+			structureContentModal : function(){
+				$(".contentTriggerStruct").each(function(){
+					$(this).click(function(e){
+						e.preventDefault();
+						var url = $(this).attr('href');
+						window.location.href = url; 	
+						return true;
+					});
+				});
+			}
+			
+		};
+		
+		var _CustomEvents = {
+			
+			init : function(){
+				$("#ContentTriggerWithImage").click(function(e){
+					e.preventDefault();
+					var urli = $(this).attr('href');
+					## see dlibra-nyromodal-xxx.js for source
+					parent.jQuery.dL_externalContentModal({
+						url : urli, 
+						baseUrl : '${homepageUrl}',
+						styleVariant : '${styleVariant}'
+					});		
+					return false;
+				});
+				this.structureContentModal();
+			},
+			
+			resultsContentModal : function(){
+				$(".contentTrigger").each(function(){
+					$(this).click(function(e){
+						e.preventDefault();
+						var urli = $(this).attr('href');
+						## see dlibra-nyromodal-xxx.js for source
+						parent.jQuery.dL_externalContentModal({
+							url : urli, 
+							baseUrl : '${homepageUrl}',
+							styleVariant : '${styleVariant}'
+						});		
+						return false;
+					});
+				});		
+			},
+			
+			structureContentModal : function(){
+				$(".contentTriggerStruct").each(function(){
+					$(this).click(function(e){
+						e.preventDefault();
+						var urli = $(this).attr('href');
+						## see dlibra-nyromodal-xxx.js for source
+						parent.jQuery.dL_externalContentModal({
+							url : urli, 
+							baseUrl : '${homepageUrl}',
+							styleVariant : '${styleVariant}'
+						});		
+						return false;
+					});
+				});
+			}
+			
+		};
+		
+		$().ready(function(){
+			$('body').css({'background-image':'none','background-color':'#fff'});
+			CustomEvents.init();
+			CustomEvents.resultsContentModal();
+		});
+		
+	</script>
+	<div class="content singleColumn">
+		
+		#foreach( $comp in $postheader)
+		    $!{comp.RenderedTemplate}
+		#end
+
+		<div class="search_field">
+		  #foreach( $comp in $subheader)
+		    #if(${comp.ComponentTitle}!="")<h3>$!{comp.ComponentTitle}</h3>#end
+		    $!{comp.RenderedTemplate}
+		  #end	
+		</div>  
+    
+		<div class="right rightToLeft">
+			
+		  <div class="right_full"> 			
+  		   #foreach( $comp in $right)
+ 		    #if ( $!{comp.RenderedTemplate} != "")
+			 #if(${comp.ComponentTitle} != "")
+	 			<h3> $!{comp.ComponentTitle} </h3> 
+				 <div class="right_articles">
+			#else
+				 <div class="right_articles notitle">
+	 		 #end
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+			#end 
+  		   #end
+  		  </div>
+  		   
+  		  #if ($rightSplitted)
+   		     #foreach( $comp in $rightSplitted)
+   		     	#if ( $!{comp.RenderedTemplate} != "")
+	  		   <div class="right_splitted">
+					 #if(${comp.ComponentTitle} != "")
+	 					<h3> $!{comp.ComponentTitle} </h3> 
+	 				 #end
+						 <div class="right_splitted_box">
+						 	 $!{comp.RenderedTemplate}
+					    </div>	 
+	 		   </div>
+	 		   #end
+  		     #end	
+  		   #end  	
+
+		  <div class="right_full"> 			
+  		   #foreach( $comp in $rightbottom)
+ 		    #if ( $!{comp.RenderedTemplate} != "")
+			 #if(${comp.ComponentTitle} != "")
+	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 		 #end
+			 <div class="right_articles">
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+			#end 
+  		   #end
+  		  </div>  
+  		   
+
+		</div>
+		
+	</div>
+#parse("parts/bottom.vm")
+	

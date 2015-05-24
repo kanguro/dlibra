@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="main.meta.description">dLibra gives you Internet access to eductional resources, cultural inheritance, regional metarials and music.</entry>
+<entry key="main.meta.keywords">dLibra, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core, publications, edition, book, short story, brochure, print, bookshop, platform system manage digital libraries, sources, wielkopolska biblioteka cyfrowa, naukowa, academic, Poznan, Poznan Foundation of scientific libraries, dlibra, libra, publishing, editing, author, writer, poet, poem, history, lyric, prose, poetry, publication description, cultural inheritance, catalogue, education, monograph, manuals,  regional materials</entry>
+<entry key="main.meta.clasification">public, creator, digital library, book, sources,  education, science, project</entry>
+<entry key="main.meta.generator">dLibra - digital libraries - system to create and manage digital library, developed by Poznan Supercomputer and Networking Center, gives you Internet access to eductional resources, cultural inheritance, regional metarials and music.</entry>
+
+<entry key="base.library.acronym">DL</entry>
+<entry key="base.library.full">Digital library of facial expressions and emotions</entry>
+
+<entry key="ContactComponent.Address">Unknown St. 16, 61-895 Poznan, POLAND</entry>
+<entry key="ContactComponent.Name">DL Partner Institution</entry>
+<entry key="ContactComponent.URL">http://institution.com/</entry>
+<entry key="ContactComponent.Mail">mail@institution.com</entry>
+<entry key="ContactComponent.Phone">phone: (+48) 61-333-33-32, fax: (+48) 61-333-33-33</entry>
+</properties>

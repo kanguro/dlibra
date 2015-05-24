@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
+  <channel rdf:about="http://dlibra-app:8080/dlibra/latest">
+    <title>Ostatnio dodane publikacje</title>
+    <link>http://dlibra-app:8080/dlibra/latest</link>
+    <description>Lista ostatnio dodanych publikacji</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=94" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=93" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=90" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=89" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=88" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=87" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=86" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=85" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=84" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=83" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=82" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=81" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=80" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=79" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=78" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=77" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=76" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=75" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=74" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=73" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=72" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=71" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=70" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=69" />
+        <rdf:li resource="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=68" />
+      </rdf:Seq>
+    </items>
+    <dc:date>2013-05-02T16:08:41Z</dc:date>
+  </channel>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=94">
+    <title>662, Zdziwienie, 2014-03-01</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=94</link>
+    <description>662, Zdziwienie, 2014-03-01
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=93">
+    <title>662, Zmarszczenie czoła, 2014-03-01</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=93</link>
+    <description>662, Zmarszczenie czoła, 2014-03-01
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=90">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=90</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=89">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=89</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=88">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=88</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=87">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=87</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=86">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=86</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=85">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=85</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-02</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=84">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=84</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=83">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=83</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=82">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=82</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=81">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=81</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=80">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=80</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=79">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=79</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=78">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=78</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=77">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=77</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=76">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=76</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=75">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=75</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=74">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=74</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=73">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=73</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=72">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=72</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=71">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=71</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=70">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=70</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=69">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=69</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+  <item rdf:about="http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=68">
+    <title>513, 2013-03-04</title>
+    <link>http://dlibra-app:8080/dlibra/docmetadata?from=rss&amp;id=68</link>
+    <description>513, 2013-03-04
+Data publikacji w Bibliotece cyfrowej: 2013-05-03</description>
+  </item>
+</rdf:RDF>
+

@@ -1,0 +1,45 @@
+<Engine xmlns="urn:guanxi:sp">
+  <!-- The identifier for this Engine. This will be the CN of the Engine's
+       certificate and will be the CN of the issuer for Guard certificates
+  -->
+  <ID>dlibra-server-engine</ID>
+
+  <!-- The Engine's SAML NameQualifer for communicating with another SAML entity. -->
+  <NameQualifier>guanxi</NameQualifier>
+
+  <!-- The Engine's keystore, password and alias.
+       These are used when setting up internal web services via HTTPS. This is the
+       only time the Engine will expose it's true identity to a server, as normally
+       it will masquerade as a Guard.
+       The Keystore path absolute.
+       For details on why the Engine may need a keystore for setting up it's internal
+       web services, see the Guanxi wiki.
+  -->
+  <Keystore>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/keystore/samlengine.jks</Keystore>
+  <KeystorePassword>269332297</KeystorePassword>
+  <CertificateAlias>webservices</CertificateAlias>
+  <KeyType>DSA</KeyType>
+
+  <!-- The Engine's truststore and it's password. For each SAML entity that the Engine
+       must communicate with securely, that SAML entity's certificate must be
+       imported into the Engine's truststore.
+       The Engine will also use this truststore when setting up it's internal web
+       services if they are accessed via HTTPS.
+       The TrustStore path is absolute.
+       For details on how to do this, see the Guanxi wiki.
+  -->
+  <TrustStore>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/truststore/samlengine.jks</TrustStore>
+  <TrustStorePassword>263955669</TrustStorePassword>
+
+  <!-- The full path and name of the directory where the Engine can load it's Guard metadata -->
+  <GuardsMetadataDirectory>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/config/metadata/guards</GuardsMetadataDirectory>
+
+  <!-- The full path and name of the directory where the Engine can load it's IdP metadata -->
+  <IdPMetadataDirectory>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/config/metadata/idp</IdPMetadataDirectory>
+
+  <!-- The full path and name of the file that contains the WAYF information -->
+  <WAYFLocationsFile>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/config/wayf.xml</WAYFLocationsFile>
+
+  <!-- The full path and name of the zip file for creating new Guards -->
+  <GuardTemplateFile>__ENGINE_APP_ROOT__/WEB-INF/guanxi_sp_engine/config/guard_template.zip</GuardTemplateFile>
+</Engine>

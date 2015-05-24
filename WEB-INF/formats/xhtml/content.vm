@@ -1,0 +1,17 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+<!--width="${width}" -->
+<object 
+classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="${width}" height="${height}" id="emotion" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="${pathToHandler}/emotion.swf" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />	
+	<embed src="${pathToHandler}/emotion.swf?cfg=${completeContentUrl}" quality="high" 
+			bgcolor="#ffffff" width="${width}" 
+			height="${height}" name="emotion" 
+			align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" 
+			type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>

@@ -1,0 +1,39 @@
+#ddCloseButton {
+	margin-right:-15px;
+}
+
+#zoom-options-next-previous{
+	float:left;
+}
+
+#page-options-list{
+	display:block;
+	list-style-type:none;
+	padding:0;
+	margin-left:10px;
+	margin-top:6px;
+}
+
+#zooming-options-list{
+	padding:0;
+	list-style-type:none;
+	display:block;
+	margin-top:6px;
+	float:left;
+}
+
+.main-container {
+	overflow:hidden;
+}
+
+#securedContent {
+	height:100%;
+	overflow:hidden;
+}
+
+#zooming-options ul {
+	padding:0;
+	margin-left:10px;
+	margin-top:6px;
+	margin-bottom:0px;
+}

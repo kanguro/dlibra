@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<titles>
+<page name="main">
+<title><![CDATA[${res.getProperty("base.Homepage")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="account-info">
+<title><![CDATA[${res.getProperty("account-info.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="collectionstats">
+<title><![CDATA[${collection.getLabel()}]]></title>
+<subTitle><![CDATA[${res.getProperty("collectiondescription.Title")}]]></subTitle>
+</page>
+<page name="collectiondescription">
+<title><![CDATA[${collectionData.getName()}]]></title>
+<subTitle><![CDATA[${res.getProperty("collectiondescription.Title")}]]></subTitle>
+</page>
+<page name="error">
+<title><![CDATA[#if(${errorMessage}) $!{errorMessage.Title}
+#else ERROR! #end]]></title>
+<subTitle><![CDATA[${res.getProperty("error.Title")}]]></subTitle>
+</page>
+<page name="contact">
+<title><![CDATA[${res.getProperty("contact.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="doccomment">
+<title><![CDATA[${edition.getName()})]]></title>
+<subTitle><![CDATA[${res.getProperty("doccomment.Title")}]]></subTitle>
+</page>
+<page name="doccontent">
+<title><![CDATA[${edition.getName()}]]></title>
+<subTitle><![CDATA[${res.getProperty("doccontent.Document-content")}]]></subTitle>
+</page>
+<page name="doccontent2">
+<title><![CDATA[${edition.getName()})]]></title>
+<subTitle><![CDATA[${res.getProperty("doccontent.Document-content")}]]></subTitle>
+</page>
+<page name="docmetadata">
+<title><![CDATA[${edition.getName()}]]></title>
+<subTitle><![CDATA[#if($deletedPublication)
+#set($pageSubtitle = "<font color='red'>${res.getProperty('publication.Deleted')}</font>")
+#else
+#set($pageSubtitle = ${res.getProperty("docmetadata.Document-description")})
+#end]]></subTitle>
+</page>
+<page name="doczip">
+<title><![CDATA[${res.getProperty("doczip.Compression")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="pubindex">
+<title><![CDATA[${collection.getLabel()}]]></title>
+<subTitle><![CDATA[${res.getProperty("editionindex.Title")}]]></subTitle>
+</page>
+<page name="exhibitions">
+<title><![CDATA[${res.getProperty("exhibitions.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="help">
+<title><![CDATA[$!{helpPage.Title}]]></title>
+<subTitle><![CDATA[$!{helpPage.Subtitle}]]></subTitle>
+</page>
+<page name="indexsearch">
+<title><![CDATA[#if(${attribute})
+#set($stringAtt = ${attribute.Id})
+#set($pageTitle = ${attribute.Name})
+#else
+#set($stringAtt = ${role})
+#set($pageTitle = $res.getProperty("role.$role"))
+#end]]></title>
+<subTitle><![CDATA[${res.getProperty("indexsearch.Title")}]]></subTitle>
+</page>
+<page name="keywordindex">
+<title><![CDATA[${attribute.Name})]]></title>
+<subTitle><![CDATA[${res.getProperty("keywordindex.Title")}]]></subTitle>
+</page>
+<page name="latest">
+<title><![CDATA[${collection.getLabel()}]]></title>
+<subTitle><![CDATA[${res.getProperty("latest.Title")}]]></subTitle>
+</page>
+<page name="advsearch">
+<title><![CDATA[${res.getProperty("login.Title")}
+${res.getProperty("base.Homepage")}
+${collection.getLabel()}]]></title>
+<subTitle><![CDATA[${res.getProperty("metadataquery.Title")}]]></subTitle>
+</page>
+<page name="new-account">
+<title><![CDATA[${res.getProperty("new-account.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="new-password">
+<title><![CDATA[${res.getProperty("new-password.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="news">
+<title><![CDATA[${res.getProperty("news.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="oai-hosts">
+<title><![CDATA[${res.getProperty("oaihosts.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="plannedpubs">
+<title><![CDATA[${collection.getLabel()}]]></title>
+<subTitle><![CDATA[${res.getProperty("plannedpubs.Title")}]]></subTitle>
+</page>
+<page name="publication">
+<title><![CDATA[${publication.getName()}]]></title>
+<subTitle><![CDATA[#if($plannedPublication)
+#set($pageSubtitle = ${res.getProperty("publication.Planned")})
+#elseif($deletedPublication)
+#set($pageSubtitle = "<font color='red'>${res.getProperty('publication.Deleted')}</font>")
+#elseif(${editions} && ! ${rootNode})
+#set($pageSubtitle = ${res.getProperty("publication.AllEditions")})
+#else
+#set($pageSubtitle = ${res.getProperty("publication.Title")})
+#end]]></subTitle>
+</page>
+<page name="pubstats">
+<title><![CDATA[${res.getProperty("pubstats.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="reset-password">
+<title><![CDATA[${res.getProperty("reset-password.Title")}]]></title>
+<subTitle><![CDATA[${res.getProperty("base.library.full")}]]></subTitle>
+</page>
+<page name="results">
+<title><![CDATA[${collection.getLabel()}]]></title>
+<subTitle><![CDATA[#if(${query.Scope} == -1 || ${query.Scope} == -2 || ${query.Scope} == -3 || ${query.Scope} == -6)
+#set($searchType="general")
+#set($pageSubtitle = ${res.getProperty("results.fulltext.Title")})
+#else
+#set($searchType="metadata")
+#set($pageSubtitle = ${res.getProperty("results.metadata.Title")})
+#end]]></subTitle>
+</page>
+<page name="admin">
+<title><![CDATA[${res.getProperty("admin.start")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-upload">
+<title><![CDATA[${res.getProperty("admin.upload.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-stats">
+<title><![CDATA[${res.getProperty("admin.stats.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-reports">
+<title><![CDATA[${res.getProperty("admin.reports.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-news-list">
+<title><![CDATA[${res.getProperty("admin.news-list.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-news-edit">
+<title><![CDATA[${res.getProperty("admin.news-edit.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-link-edit">
+<title><![CDATA[${res.getProperty("admin.components.link-editor")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-help-upload">
+<title><![CDATA[${res.getProperty("admin.upload.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-help-list">
+<title><![CDATA[${res.getProperty("admin.help.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-help-edit">
+<title><![CDATA[${res.getProperty("admin.help-edit.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-errors-list">
+<title><![CDATA[${res.getProperty("admin.errors.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-error-edit">
+<title><![CDATA[$res.getProperty("admin.errors.edit")]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-engine-stats">
+<title><![CDATA[${res.getProperty("admin.engine-stats.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-doctype-list">
+<title><![CDATA[${res.getProperty("admin.doctypes.title")}]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-doctype-edit">
+<title><![CDATA[$res.getProperty("admin.doctypes.edit")]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+<page name="admin-component-edit">
+<title><![CDATA[$res.getProperty("admin.components.edit")]]></title>
+<subTitle><![CDATA[]]></subTitle>
+</page>
+</titles>

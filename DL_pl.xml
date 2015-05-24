@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>DL</ShortName>
+  <LongName>Biblioteka cyfrowa mimiki i emocji</LongName>
+  <Image height="16" width="16" type="image/jpeg">http://dlibra-app:8080/DL_pl.jpg</Image>
+  <Tags>dLibra, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core, twórca, publikacja, wydawnictwo, książka, nowela, broszura, druk, księgarnia, czytelnia, platforma system obsługi bibliotek cyfrowych, źródła, wielkopolska biblioteka cyfrowa, naukowa, akademicka, Poznań, Fundacja Bibliotek Naukowych, dlibra, libra, publikowanie, wydawanie, autor, pisarz, poeta, poemat, historia, liryka, proza, poezja, opis bibliograficzny, dziedzictwo kulturowe, katalog, katalogowanie, edukacja, monografia, podręczniki, zabytki piśmiennictwa, regionalia, księgozbiór publiczny</Tags>
+  <Description>dLibra umożliwia dostęp przez Internet do zasobów edukacyjnych, dziedzictwa kulturowego, regionaliów i muzykaliów</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="http://dlibra-app:8080/dlibra/results?isExpandable=off&amp;dirids=1&amp;queryType=-3&amp;query={searchTerms}&amp;isRemote=off&amp;action=SearchAction" />
+  <Url type="application/rss+xml" template="http://dlibra-app:8080/dlibra/results.rss?isExpandable=off&amp;dirids=1&amp;queryType=-3&amp;query={searchTerms}&amp;isRemote=off&amp;encode=true&amp;action=SearchAction" />
+  <Developer>Poznan Supercomputing and Networking Center</Developer>
+</OpenSearchDescription>

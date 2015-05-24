@@ -1,0 +1,112 @@
+#parse("parts/header.vm")
+	<div class="content">
+		<div class="header">
+			<div class="top_info">
+				  #foreach( $comp in $top_info_right)
+ 					<div class="top_info_right">
+		 			  <p>
+		 			  	<b>$!{comp.ComponentTitle}</b>
+		 			  	$!{comp.RenderedTemplate}
+		 			  </p>
+ 				    </div>	
+				  #end	
+			</div>
+			<div class="logo">
+				
+				## logo goes here
+				<a href="${homepageUrl}${servletName}" title="$!{res.getProperty("base.library.full")}">
+					<img src="${homepageUrl}/style/dlibra/${styleVariant}/logo.gif"  alt="" />
+ 				</a>
+				<h1>
+					<a href="${homepageUrl}${servletName}" title="$!{res.getProperty("base.library.full")}">
+					$!{res.getProperty("base.library.full")}
+					</a>
+				</h1>
+			</div>
+		</div>
+
+		<div class="bar">
+		     #navLinks()
+		</div>
+
+		<div class="search_field">
+		  #foreach( $comp in $subheader)
+		    #if(${comp.ComponentTitle}!="")<h3>$!{comp.ComponentTitle}</h3>#end
+		    $!{comp.RenderedTemplate}
+		  #end	
+		</div>  
+    
+		<div class="left">
+
+		  <div class="left_full"> 			
+  		   #foreach( $comp in $left)
+ 		    #if ( ${comp.RenderedTemplate}!="" )
+			 #if(${comp.ComponentTitle}!="")
+	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 		 #end
+			 <div class="left_box">
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+			#end 
+  		   #end
+  		  </div> 
+
+			
+           #if ($leftSplitted)
+   		     #foreach( $comp in $leftSplitted)
+   		     	#if ( $!{comp.RenderedTemplate} != "")
+	  		   <div class="left_splitted">
+					 #if(${comp.ComponentTitle} != "")
+	 					<h3> $!{comp.ComponentTitle} </h3> 
+	 				 #end
+						 <div class="left_splitted_box">
+						 	 $!{comp.RenderedTemplate}
+					 </div>	 
+	 		   </div>
+	 		   #end
+  		     #end	
+  		   #end  	
+
+		  <div class="left_full"> 			
+  		   #foreach( $comp in $leftbottom)
+ 		    #if ( $!{comp.RenderedTemplate} != "")
+			 #if(${comp.ComponentTitle} != "")
+	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 		 #end
+			 <div class="left_box">
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+			#end 
+  		   #end
+  		  </div> 
+		  
+		</div>
+
+		<div class="right">
+			
+  		   #foreach( $comp in $right)
+ 		    #if ( $!{comp.RenderedTemplate} != "")
+			 #if(${comp.ComponentTitle} != "")
+	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 		 #end
+			 <div class="right_articles">
+			 	 $!{comp.RenderedTemplate}
+			 </div>	 
+			#end 
+  		   #end
+
+		</div>
+		
+		#if ( $bottom )
+			<div class="footer">
+	
+	  		   #foreach( $comp in $bottom)
+				  $!{comp.RenderedTemplate}
+			   #end
+	
+			</div>
+		#end
+		
+	</div>
+#parse("parts/bottom.vm")
+	

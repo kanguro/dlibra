@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <!-- 
+      Configuration of main elements (called managers) of dLibra readers application.
+    -->
+
+    <!-- required managers -->
+
+    <!-- dLibra services manager must be first -->
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>dlibra</id>
+     <depends/>     
+     <data>services.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>email</id>
+     <depends/>     
+     <data>smtp.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>jcr-init</id>
+     <depends>jcr</depends>     
+     <data>jcr-init.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>jcr</id>
+     <depends>dlibra</depends>     
+     <data>jcr.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>cache</id>
+     <depends>dlibra</depends>
+     <data>cache.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>auth</id>
+     <depends>dlibra</depends>
+     <data>auth.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>rights</id>
+     <depends>auth</depends>
+     <data>rights.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>users</id>
+     <depends>dlibra</depends>
+     <data>users.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>contentHandlers</id>
+     <depends>dlibra</depends>
+     <data>contentHandlers.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>    
+    
+   	<pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+		<id>gossip</id>
+		<depends>dlibra</depends>
+		<data>gossip.properties</data>
+	</pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+	
+   	<pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+		<id>converters</id>
+		<depends/>
+		<data>contentConverters.properties</data>
+	</pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+
+    <!-- required managers -->
+
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>pubcreator</id>
+     <depends>dlibra</depends>
+     <data>pubcreator.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>  
+
+	<!--  exlibris manager -->
+	
+	<pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>exlibris</id>
+     <depends>dlibra</depends>
+     <data>exlibris.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+	<pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>oaipmh</id>
+     <depends>dlibra</depends>
+     <data>oaipmh.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+	
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>xslt</id>
+     <depends>dlibra</depends>
+     <data>xslt.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+    
+	<pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>stats</id>
+     <depends>jcr</depends>
+     <data>stats.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+	
+    <!--  
+    <pl.psnc.dlibra.web.fw.resources.ResourceInfo>
+     <id>guanxi</id>
+     <depends>dlibra</depends>
+     <data>guanxi.properties</data>
+    </pl.psnc.dlibra.web.fw.resources.ResourceInfo>    
+   --> 
+</list>

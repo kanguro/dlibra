@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="displayed.name">Let My browser handle publication's content.</entry>
+	<entry key="unsupported.hint">You can`t see any publication content? Try other display options by</entry>
+	<entry key="unsupported.click">clicking here</entry>
+	<entry key="unsupported.hint.cdn">or check out what`s the problem</entry>
+	<entry key="unsupported.details">Details</entry>
+</properties>

@@ -1,0 +1,85 @@
+<html>
+<head>	
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title> Łączna liczba publikacji w bibliotece (2007.08 - 2008.02) </title>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+	<link rel="stylesheet" type="text/css" href="http://dlibra-app:8080/dlibra/../style/common/stat-table.css" />
+	<script type="text/javascript" src="http://dlibra-app:8080/dlibra/../style/common/js/jquery-1.2.6.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function() {
+	    $(".month, .lastmonth").each( function() { 
+    		var year = new String(this.id);
+    		year = parseInt(year.substring(0,4));
+    		if ( (year % 2) == 0 ) 	{
+                         $(this).addClass('odd'); 
+                }
+    		var month = new String(this.id);
+                    month = parseInt(month.substring(5));
+    		if ( (month % 2 ) == 0 )  
+                           $(this).addClass("oddmonth");
+	    });
+	    $(".year").each( function(i) { 
+    		var year = new String(this.id);
+    		if ( (year % 2) == 0 ) { 
+                   $(this).addClass('odd'); 
+   			}
+	    });
+	  });
+	</script>
+</head>
+<body>	
+<h3> Łączna liczba publikacji w bibliotece (2013.04 - 2013.05) </h3>
+
+<table cellspacing="0" rowspacing="0" >
+<tr>
+  <th>Rok</th>
+     <th id="2013" class="year" colspan="2">2013</th>
+  </tr>
+<tr>
+  <td class="monthHeader">Miesiąc</td>	
+  		  	  		<td id="2013_3" class="month">
+    	  <table cellspacing="0" rowspacing="0">
+			  <tr>
+				 <th colspan="2" style="vertical-align: top">4</th>
+			  </tr>	
+			  <tr>
+				 <td>
+					<table cellspacing="0" rowspacing="0"> 
+						<tr>
+							<th class="month" id="2013_3_da">dzień</th>
+							<th class="month" id="2013_3_no">publikacje</th>
+						</tr>
+											<tr id="2013_3_24" class="last day! oddday">
+	<td>24</td><td>0.0</td></tr>
+					</table>	
+				 </td>	
+			  </tr>	
+		  </table>	
+      </td> 	
+    	  	  		<td id="2013_4" class="lastmonth">
+    	  <table cellspacing="0" rowspacing="0">
+			  <tr>
+				 <th colspan="2" style="vertical-align: top">5</th>
+			  </tr>	
+			  <tr>
+				 <td>
+					<table cellspacing="0" rowspacing="0"> 
+						<tr>
+							<th class="lastmonth" id="2013_4_da">dzień</th>
+							<th class="lastmonth" id="2013_4_no">publikacje</th>
+						</tr>
+											<tr id="2013_4_2" class="day! oddday" ><td>2</td><td>30.0</td></tr>
+					<tr id="2013_4_3" class="last day!">
+	<td>3</td><td>28.0</td></tr>
+					</table>	
+				 </td>	
+			  </tr>	
+		  </table>	
+      </td> 	
+      </tr>	
+</table>
+
+
+</body>
+</html>

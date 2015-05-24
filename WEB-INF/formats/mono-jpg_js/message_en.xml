@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">Standard JPG gallery viewer</entry>
+<entry key="jpg.imageDescription">Picture description</entry>
+<entry key="jpg.nextImage">Next photo</entry>
+<entry key="jpg.previousImage">Previous photo</entry>
+<entry key="jpg.next">Next page</entry>
+<entry key="jpg.previous">Previous page</entry>
+<entry key="jpg.fit">Fit</entry>
+<entry key="jpg.zoomOptions">Zoom(%): </entry>
+<entry key="jpg.availablePages">Images: </entry>
+<entry key="jpg.noDescription">No object description available</entry>
+<entry key="message.succ.title">Required software is installed</entry>
+<entry key="message.title">Standard JPG gallery viewer</entry>
+<entry key="message.body">Your browser does not support JavaScript. Please verify if JavaScript functionality is turned on and try again.</entry>
+<entry key="message.error.title">Required JavaScript support is unavailable!</entry>
+<entry key="message.success.title">Required JavaScript support is available.</entry>
+<entry key="jpg.imageTitle">Name</entry>
+<entry key="jpg.description">Description</entry>
+<entry key="jpg.objectDescription">Object description</entry>
+<entry key="jpg.loadObjectDescription">Loading description...</entry>
+<entry key="of">of</entry>
+</properties>

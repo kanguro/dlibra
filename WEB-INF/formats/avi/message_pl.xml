@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">Media Player</entry>
+<entry key="message.title">Media Player</entry>
+<entry key="message.succ.title">Wymagane oprogramowanie jest zainstalowane</entry>
+<entry key="message.body"><![CDATA[
+Do odtworzenia treści zostanie użyty Windows Media Player w wersji 7.0. Jeżeli na Twoim komputerze jest zainstalowana nowsza wersja
+powinna ona zostać automatycznie wybrana. W razie problemów spróbuj zainstalować odpowiednie rozszerzenie, można je pobrać bezpłatnie ze 
+strony <a target="_blank" href="http://www.microsoft.com/Windows/MediaPlayer/">Windows MediaPlay</a>.
+]]></entry>
+<entry key="test.success.title">Wymagane oprogramowanie jest zaistalowane.</entry>
+<entry key="test.error.title">Brak wymaganego oprogramowania!</entry>
+</properties>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">flash:flv+mp3</entry>
+<entry key="handled.mime.types">audio/mpeg, audio/x-mpeg, audio/mp3, audio/x-mp3, audio/mpeg3, audio/x-mpeg3, audio/mpg, audio/x-mpg, audio/x-mpegaudio, video/x-flv, flv-application/octet-stream, application/mp4, video/mp4, audio/mp4</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+<entry key="overrides.browser">true</entry>
+</properties>

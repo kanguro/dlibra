@@ -1,0 +1,28 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+<!--[if !IE]> -->
+<object type="application/x-java-applet"
+ archive="${pathToHandler}/djvuViewer.jar"
+      			name="viewer" height="${height}" width="${width}" >
+    <param name="code" value="DjVuApplet.class" /> 
+    <param name="data" value="${completeContentUrl}"/>
+    <param name="sessionId" value="${sessionid}"/>
+	<param name="userLang" value="${lang}" />
+	<param name="java_arguments" value="-Xms80m -Xmx384m"/> 
+	<param name="secure" value="${sec}" />
+	<div style="margin:50px auto;width:500px;">${message.getProperty("message.body")} <a href="http://java.com/">http://java.com/</a>.</div>
+</object>
+<!--<![endif]-->
+<!--[if IE]>
+<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" 
+                codebase="http://java.sun.com/update/1.6.0/jinstall-6u18-windows-i586.cab#Version=1,6,1,8"
+                height="${height}" width="${width}" > 
+  <param name="data" value="${completeContentUrl}"/>
+  <param name="code" value="DjVuApplet.class" />
+  <param name="archive" value="${pathToHandler}/djvuViewer.jar" />
+  <param name="secure" value="${sec}" />
+  <param name="userLang" value="${lang}" />
+		  <param name="java_arguments" value="-Xms80m -Xmx384m"/>
+		  <div style="margin:50px auto;width:500px;">${message.getProperty("message.body")} <a href="http://java.com/">http://java.com/</a>.</div>
+</object>
+<![endif]-->

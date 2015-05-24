@@ -1,0 +1,13 @@
+<auth-cookie-handlers xmlns="urn:guanxi:idp">
+  <!-- This file tells the Guanxi Identity Provider which cookie handlers to
+       to load. Each cookie handler is capable of processing a particular
+       cookie to resolve it to an authenticated user. If a cookie handler
+       reports an authenticated user, the Guanxi Identity Provider will not
+       display the login page.
+  -->
+  
+  <!-- Bodington cookie handler -->
+  <!--
+  <cookie-handler type="org.guanxi.idp.authcookiehandlers.BodingtonCookieHandler" />
+  -->
+</auth-cookie-handlers>

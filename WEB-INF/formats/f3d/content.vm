@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	
+	$().ready(function(){
+		
+		var cW = $(window).width();
+		var cH = $(window).height();
+	
+		$("#f3dContainer").append('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%">'+
+		'<param name="movie" value="${pathToHandler}/feuerball3D.swf?imgdata=${completeContentUrl}" />'+
+		'<param name="allowFullScreen" value="true" />'+
+		'<embed src="${pathToHandler}/feuerball3D.swf?imgdata=${completeContentBaseUrl}/f3d,'+ cW + 'x' + cH + '/3DData&param1=blabla" width="100%" height="100%" allowFullScreen="true" />'+
+		'</object>');
+	});
+	
+</script>
+<div id="f3dContainer">
+</div>

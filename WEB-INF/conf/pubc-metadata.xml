@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pubc-metadata [
+<!ELEMENT attribute (position,rdf-name, multiple?, input-type?)>
+<!ATTLIST attribute name ID #REQUIRED>
+<!ATTLIST attribute required CDATA "false">
+<!ATTLIST attribute pname CDATA "false">
+<!ATTLIST attribute alias CDATA "false">
+<!ELEMENT rdf-name (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT multiple (#PCDATA)>
+<!ELEMENT input-type (startYear?, endYear?, separator?)>
+<!ATTLIST input-type name ID #REQUIRED>
+<!ELEMENT startYear (#PCDATA)>
+<!ELEMENT endYear (#PCDATA)>
+<!ELEMENT separator (#PCDATA)>
+<!ELEMENT pubc-metadata (attribute+)>
+]>
+<!-- 
+
+	Contains list of attributes required by publication creator.
+	Attributes of 'attribute' xml element :  
+		name - name for attribute (must be unique);
+		required - is attribute value required for this attribute (in current metadata language);
+		pname - attribute has a role of being publication name;
+	 	
+-->
+<pubc-metadata>
+	<attribute name="title" required="true" pname="true">
+		<position>1</position>
+		<rdf-name>Title</rdf-name>
+	</attribute>
+	<attribute name="author" required="true">
+		<position>2</position>
+		<rdf-name>Creator</rdf-name>
+	</attribute>
+	<attribute name="abstract">
+		<position>3</position>
+		<rdf-name>Abstract</rdf-name>
+	</attribute>
+	<attribute name="subject">
+		<position>4</position>
+		<rdf-name>Subject</rdf-name>
+	</attribute>
+	<attribute name="date" required="true">
+		<position>5</position>
+		<rdf-name>Date</rdf-name>
+		<input-type name="DATE">
+		</input-type>
+	</attribute>
+	<attribute name="licence" alias="true">
+		<position>6</position>
+		<rdf-name>Rights</rdf-name>
+	</attribute>
+	<attribute name="comments" alias="true">
+		<position>7</position>
+		<rdf-name>Description</rdf-name>
+		<multiple>false</multiple>
+		<input-type name="TEXTAREA"/>
+	</attribute>
+</pubc-metadata>

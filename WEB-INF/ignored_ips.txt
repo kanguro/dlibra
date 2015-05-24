@@ -1,0 +1,7 @@
+# Clients from IP addresses entered below will be ingored while counting WWW 
+# site statistics.
+# Each IP address name should be entered in separate line as a regular 
+# expression pattern. From performance reasons only IP addresses are allowed 
+# (no domain names etc.).
+# Don't put empty lines between file entries.
+#127\.0\.0\.1

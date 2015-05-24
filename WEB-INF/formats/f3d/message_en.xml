@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">3D presentations viewer</entry>
+<entry key="message.title">3D presentations viewer</entry>
+<entry key="message.body"><![CDATA[
+To view 3D presentation you must install free Adobe Flash Player software.
+You can download the most recent version from Adobe <a href="http://www.adobe.com/products/flashplayer/" target="_blank">www sites</a>.
+]]></entry>
+<entry key="test.success.title">Required software is installed.</entry>
+<entry key="test.error.title">Required software is not installed!</entry>
+<entry key="test.error.version.title">Required version of software is not installed! Please install newest version and try again.</entry>
+</properties>

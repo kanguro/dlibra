@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="main.meta.description">dLibra umożliwia dostęp przez Internet do zasobów edukacyjnych, dziedzictwa kulturowego, regionaliów i muzykaliów</entry>
+<entry key="main.meta.keywords">dLibra, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core,publikacja, wydawnictwo, książka, nowela, broszura, druk, księgarnia, czytelnia,platforma system obsługi bibliotek cyfrowych, źródła, wielkopolska biblioteka cyfrowa,naukowa, akademicka, Poznań, Fundacja Bibliotek Naukowych, dlibra, libra, publikowanie, wydawanie, autor, pisarz, poeta, poemat, historia, liryka, proza, poezja, opis bibliograficzny, dziedzictwo kulturowe, katalog, katalogowanie, edukacja, monografia, podręczniki, zabytki piśmiennictwa, regionalia, księgozbiór publiczny</entry>
+<entry key="main.meta.clasification">publiczna, twórca, biblioteka cyfrowa, książka, źródło,edukacja, nauka, projekt</entry>
+<entry key="main.meta.generator">dLibra - biblioteki cyfrowe - system tworzenia i obsługi bibliotek cyfrowych stworzony przez Poznańskie Centrum Superkomputerowo Sieciowe umożliwiający dostęp przez Internet do zasobów edukacyjnych, dziedzictwa kulturowego, regionaliów i muzykaliów</entry>
+
+<entry key="base.library.acronym">DL</entry>
+<entry key="base.library.full">Biblioteka cyfrowa mimiki i emocji</entry>
+
+<entry key="ContactComponent.Name">Instytucja partnerska BC</entry>
+<entry key="ContactComponent.Address">ul. Nieznana 16, 61-895 Poznań, POLSKA</entry>
+<entry key="ContactComponent.URL">http://institution.com/</entry>
+<entry key="ContactComponent.Mail">mail@institution.com</entry>
+<entry key="ContactComponent.Phone">telefon: (+48) 61-333-33-32, faks: (+48) 61-333-33-33</entry>
+</properties>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">flash:feuerball3d</entry>
+<entry key="handled.mime.types">text/xml</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+<entry key="handled.filenames">3DData.xml</entry>
+<entry key="overrides.browser">true</entry>
+</properties>

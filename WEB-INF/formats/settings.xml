@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">browser</entry>
+<entry key="handles.secured">true</entry>
+<entry key="handles.normal">true</entry>
+</properties>

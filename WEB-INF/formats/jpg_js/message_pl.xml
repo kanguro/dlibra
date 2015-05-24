@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">Standardowa przeglądarka plików JPG</entry>
+<entry key="jpg.imageTitle">Nazwa</entry>
+<entry key="jpg.description">Opis</entry>
+<entry key="jpg.imageDescription">Opis wizerunku</entry>
+<entry key="jpg.nextImage">Następne zdjęcie</entry>
+<entry key="jpg.previousImage">Poprzednie zdjęcie</entry>
+<entry key="jpg.next">Następna strona</entry>
+<entry key="jpg.previous">Poprzednia strona</entry>
+<entry key="jpg.zoomOptions">Rozmiar(%): </entry>
+<entry key="jpg.fit">Wyrównaj</entry>
+<entry key="jpg.availablePages">Grafiki: </entry>
+<entry key="jpg.noDescription">Brak opisu dla tego obiektu</entry>
+<entry key="jpg.objectDescription">Opis obiektu</entry>
+<entry key="jpg.loadObjectDescription">Ładowanie opisu...</entry>
+<entry key="message.succ.title">Wymagane oprogramowanie jest zainstalowane.</entry>
+<entry key="message.title">Standardowa przeglądarka JPG</entry>
+<entry key="message.body">Do prawidłowego funkcjonowania tej opcji przeglądania wymagane jest wsparcie dla JavaScript.</entry>
+<entry key="message.error.title">Brak wymaganego wsparcia dla JavaScript!</entry>
+<entry key="message.success.title">Wymagane wsparcie dla JavaScript jest dostępne.</entry>
+<entry key="of">z</entry>
+</properties>

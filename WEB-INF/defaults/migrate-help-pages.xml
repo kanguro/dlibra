@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>no-js-help</id>
+		<title>No JavaScript support</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  In order to be able to experience the full functionality of our digital library, you have to turn on JavaScript support in your WWW browser. 
+		  Any WWW browser should have options or preferences window in which you can do this.
+		  <p>Below there are some examples on how to turn on or off the JavaScript support option for specific WWW browsers::</p>
+		  <ul>
+			<li>
+				<b>FireFox 3.6.x</b> - in top toolbar click Tools -> Options -> Content -> Enable JavaScript
+			</li>
+			<li>
+				<b>Internet Explorer 8</b> - on the right side of top menu click Tools -> Internet options -> Security -> Custom level... -> in the section "Scripting" by selecting
+				the option "Active scripting".
+			</li>
+			<li>
+				<b>Opera 10.x</b> in top toolbar click Tools -> Preferences -> Advanced -> Content -> Enable JavaScript  
+			</li>
+		  </ul>
+		  <p>Detailed instructions on turning on and off the JavaScript support can be also found in the WWW browser manual, located in most cases in the “Help” menu.</p>
+		 ]]></body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>en</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>no-js-help</id>
+		<title>Brak wsparcia dla JavaScript</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  Aby móc w pełni korzystać z możliwości naszej biblioteki cyfrowej, musisz włączyć w swojej przeglądarce WWW obsługę JavaScript.
+		  Każda przeglądarka powinna posiadać okno opcji lub preferencji, w którym można to zrobić.
+		  <p>Poniżej znajdują się przykłady włączania i wyłączania JavaScript dla konkretnych przeglądarek:</p>
+		  <ul>
+			<li>
+				<b>FireFox w wersji 3.6.x</b> - w górnym menu należy kliknąć w Narzędzia -> Opcje -> Treść -> Włącz obsługę języka JavaScript.  
+			</li>
+			<li>
+				<b>Internet Explorer 8</b> - w górnym menu po prawej stronie należy kliknąć w Narzędzia -> Opcje internetowe -> Zabezpieczenia -> Poziom niestandardowy..., a następnie w sekcji "Obsługa skryptów" włączyć
+				opcję "Wykonywanie aktywnych skryptów".
+			</li>
+			<li>
+				<b>Opera 10.x</b> w górnym menu należy kliknąć Narzędzia -> Preferencje -> Zaawansowane -> Zawartość -> Włącz obsługę JavaScript  
+			</li>
+		  </ul>
+		  <p>Szczegółowe instrukcje włączania obsługi JavaScript można znaleźć również w dokumentacji przeglądarki WWW, dostępnej zazwyczaj w menu "Pomoc".</p>
+		 ]]></body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>pl</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>powered-by</id>
+		<title>Wykorzystane rozwiązania</title>
+		<subtitle></subtitle>
+		<body>
+		<![CDATA[
+			<p>
+			Oprogramowanie dLibra korzysta z zestawu ikon <b>Silk Icons</b> autorstwa Pana <b>Marka James`a</b>, które dostępne są
+			pod adresem: <a href="http://www.famfamfam.com/">www.famfamfam.com</a> oraz z zestawu ikon udostępnionych przez
+			firmę <b>FatCow Web Hosting</b>, które można pobrać pod adresem: <a href="http://www.fatcow.com/free-icons/">www.fatcow.com/free-icons</a>.
+			<br/>Zarówno Panu James`owi jak i firmie FatCow Web Hosting serdecznie dziękujemy.
+			</p>
+		 ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>powered-by</id>
+		<title>Used solutions</title>
+		<subtitle></subtitle>
+		<body>
+		<![CDATA[
+			<p style="color:#999;font-size:11px;">
+			The dLibra software extensively uses the Silk Icons set created by Mr Mark James, which is available under
+			this address: <a href="http://www.famfamfam.com/">www.famfamfam.com</a> and also icon sets created by FatCow Web Hosting,
+			which can be downloaded from this site: <a href="http://www.fatcow.com/free-icons/">www.fatcow.com/free-icons</a>.
+			<br/>We thank the producers - Mr James and FatCow Web Hosting company for the opportunity to use those icon sets.
+			</p>
+		 ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>about-dlibra</id>
+		<title>O dLibrze...</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+    <p>
+	    <a href="http://dlibra.psnc.pl">dLibra</a> to pierwszy polski system do budowy bibliotek cyfrowych, jest on rozwijany przez 
+	    <a href="http://www.man.poznan.pl">Poznańskie Centrum Superkomputerowo - Sieciowe</a> (PCSS)
+	    od 1999 roku. Rozpoczęcie prac nad tym systemem było efektem badań w zakresie bibliotek 
+	    cyfrowych prowadzonych w PCSS już od 1996 roku. System dLibra jest obecnie 
+	    najpopularniejszym tego typu oprogramowaniem w Polsce.
+	</p>
+	<p>    
+		dLibra jest szeroko wykorzystywana przez instytucje takie jak biblioteki akademickie
+		i publiczne do udostępniania cyfrowych postaci gromadzonych przez nie zbiorów. 
+		Instytucje te, wykorzystując sieć <a href="http://www.pionier.gov.pl">PIONIER</a> i 
+		oprogramowanie dLibra, współtworzą polską platformę rozproszonych bibliotek cyfrowych.
+		Zachęcamy do zapoznania się z aktualną lista wdrożeń systemu dLibra. PCSS oferuje 
+		również szkolenia oraz pomoc techniczną z zakresu wykorzystania oprogramowania dLibra.
+	</p>
+	<p style="text-align:center">
+		<a href="http://dlibra.psnc.pl" target="_blank" title="dlibra">
+			<img src="../style/common/img/about/dlibra-logo.jpg" alt="dLibra" />
+		</a>
+	&nbsp;
+		<a href="http://www.man.poznan.pl" target="_blank" title="pcss">
+			<img src="../style/common/img/about/psnc.gif" alt="pcss" />
+		</a>
+	&nbsp;	
+		<a href="http://www.pionier.gov.pl/" target="_blank" title="pionier">
+			<img src="../style/common/img/about/pionier.gif" alt="pionier" />
+		</a>
+	</p>
+	<br/>
+	<hr/>
+	<p style="text-align:center"><a href="help?id=powered-by">Wykorzystane rozwiązania</a></p>
+	]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>about-dlibra</id>
+		<title>About dLibra</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+       <p>
+	       <a href="http://dlibra.psnc.pl">dLibra</a> is the first Polish system for building digital libraries, which 
+	       has been developed by the <a href="http://www.man.poznan.pl"Poznan Supercomputing and Networking Center</a> (PSNC) since 1999. 
+	       dLibra is an effect of research in the field of digital libraries which has been performed in PSNC since 1996.dLibra 
+	       system is now the most popular software of this type in Poland. 
+       </p>
+
+	   <p>       
+	       dLibra enables building professional repositories of digital documents which can be accessed by external 
+	       individuals and systems on the Internet. Communication and data exchange is based on well known 
+	       standards and protocols such as: RSS, RDF, MARC, DublinCore or OAI-PMH. Digital libraries based on
+	       dLibra offer to their users expanded possibilities such as: searching the content of stored elements, 
+	       searching bibliographic description with use of synonyms dictionary, grouping digital publications and
+	       navigating in these structure or precise and expanded access rules to elements. Detailed functional 
+	       description of dLibra can be found <a href="http://dlibra.psnc.pl/html/index.php?option=content&task=view&id=13">here</a>.
+	       Description of architecture and technical requirements can be found <a href="http://dlibra.psnc.pl/html/index.php?option=content&task=view&id=14">here</a>.
+       </p>
+
+ 	   <p>
+		   dLibra is used by institutions such as academic and public libraries to make stored digital 
+		   publications available on the Internet. These institutions by using <a href="http://www.pionier.gov.pl">PIONIER</a> 
+		   network and dLibra software create Polish platform of distributed digital libraries. Current list of installations 
+		   of dLibra system is available here. In addition PSNC offers training and technical help in the 
+		   field of dLibra system usage.
+	   </p>
+	   <p>
+	     Main dLibra library page based on <a href="http://www.oswd.org/design/preview/id/2876"> 
+		 Internet Services by LanVacation</a> template.	      
+	  	 Admin panel HTML template based on template by <a href="http://www.minimalistic-design.net">Minimalistic Design</a>.
+	   </p>
+	   	<p style="text-align:center">
+			<a href="http://dlibra.psnc.pl" target="_blank" title="dlibra">
+				<img src="../style/common/img/about/dlibra-logo.jpg" alt="dLibra" />
+			</a>
+		&nbsp;
+			<a href="http://www.man.poznan.pl" target="_blank" title="pcss">
+				<img src="../style/common/img/about/psnc.gif" alt="pcss" />
+			</a>
+		&nbsp;	
+			<a href="http://www.pionier.gov.pl/" target="_blank" title="pionier">
+				<img src="../style/common/img/about/pionier.gif" alt="pionier" />
+			</a>
+		</p>
+		<br/>
+		<hr/>
+		<p style="text-align:center"><a href="help?id=powered-by">Used solutions</a></p>
+		
+	   ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  		<id>regulations</id>
+  		<title>Example page with regulations</title>
+  		<subtitle></subtitle>
+  		<body><![CDATA[
+  		<p>
+  			Here should be the regulations acceptable by the user who intends to upload the publication.
+  		</p>
+  	
+	  	<p>
+  			Be sure to edit this page before upload will be available to users.
+  		</p>
+  
+  		]]></body>
+  		<referencesList class="list" />
+  		<references></references>
+  		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  		<id>regulations</id>
+  		<title>Przykładowa strona z regulaminem</title>
+  		<subtitle></subtitle>
+  		<body><![CDATA[
+  			<p>
+  				Tutaj powinien znajdować się regulamin do zaakceptowania przez użytkownika zamierzającego wgrać publikację.
+  			</p>
+  	
+  			<p>
+  				Pamiętaj aby zredagować tę stronę zanim udostępnisz czytelnikom możliwość wgrywania publikacji!
+  			</p>
+  		]]></body>
+  		<referencesList class="list" />
+  		<references></references>
+  		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+</list>

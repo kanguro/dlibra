@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">jpg_js:viewer</entry>
+<entry key="handled.mime.types">text/xml</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+<entry key="handled.filenames">PresentationData.xml</entry>
+<entry key="overrides.browser">true</entry>
+</properties>

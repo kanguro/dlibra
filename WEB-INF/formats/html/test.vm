@@ -1,0 +1,5 @@
+## see component_library.vm for implementation of macro
+## if test is used in DoctypeInformationComponent both $finalContentUrl and $listOfHandlersUrl variables 
+## are defined and $redirectAfterTest is set to 'true'.
+## if test is used in FormatHandlersListComponent macro prints status message
+#testJavaBasedHandler(false $redirectAfterTest $finalContentUrl $listOfHandlersUrl)

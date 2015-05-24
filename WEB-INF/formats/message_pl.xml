@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="displayed.name">Pozostaw obsługę przeglądarce (pobierz plik główny)</entry>
+	<entry key="unsupported.title">Nie można wyświetlić prezentacji</entry>
+	<entry key="unsupported.hint">Publikacja nie wyświetla się? Wypróbuj innych sposobów prezentacji</entry>
+	<entry key="unsupported.click">klikając tutaj</entry>
+	<entry key="unsupported.hint.cdn">lub sprawdź w czym tkwi problem</entry>
+	<entry key="unsupported.details">szczegóły</entry>
+</properties>

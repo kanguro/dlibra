@@ -1,0 +1,134 @@
+<script type="text/javascript">
+	var styleS = document.createElement('link');
+	styleS.setAttribute('rel', 'stylesheet');
+	styleS.setAttribute('type', 'text/css');	
+	styleS.setAttribute('href', '${pathToHandler}/galleriffic.css');
+	document.getElementsByTagName('head')[0].appendChild(styleS);
+	
+	styleS = document.createElement('link');
+	styleS.setAttribute('rel', 'stylesheet');
+	styleS.setAttribute('type', 'text/css');	
+	styleS.setAttribute('href', '${pathToHandler}/jquery-ui/themes/gray-theme/ui.all.css');
+	document.getElementsByTagName('head')[0].appendChild(styleS);
+	
+	styleS = document.createElement('link');
+	styleS.setAttribute('rel', 'stylesheet');
+	styleS.setAttribute('type', 'text/css');	
+	styleS.setAttribute('href', '${pathToHandler}/jquery-ui/themes/gray-theme/ui.dialog.css');
+	document.getElementsByTagName('head')[0].appendChild(styleS);
+	
+	styleS = document.createElement('link');
+	styleS.setAttribute('rel', 'stylesheet');
+	styleS.setAttribute('type', 'text/css');	
+	styleS.setAttribute('href', '${pathToHandler}/dlibra-image-gallery-1.0.css');
+	document.getElementsByTagName('head')[0].appendChild(styleS);
+	
+	// fixing IE differences
+	if(navigator.appName == "Microsoft Internet Explorer" && !(navigator.userAgent.indexOf("Trident/5")>-1)){
+		var secContent = document.getElementById("securedContent");
+		if(typeof secContent != 'undefined'){
+			secContent.setAttribute('style','height:100%;overflow:hidden');
+		}
+		styleS = document.createElement('link');
+		styleS.setAttribute('rel', 'stylesheet');
+		styleS.setAttribute('type', 'text/css');	
+		styleS.setAttribute('href', '${pathToHandler}/dlibra-image-gallery-1.0-ie.css');
+		document.getElementsByTagName('head')[0].appendChild(styleS);
+	}
+	
+</script>
+<script type="text/javascript" src="${pathToHandler}/mootools-1.11.js"></script>
+<script type="text/javascript" src="${pathToHandler}/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="${pathToHandler}/jquery-ui/ui/ui.core.js"></script>
+<script type="text/javascript" src="${pathToHandler}/jquery-ui/ui/ui.slider.js"></script>
+<script type="text/javascript" src="${pathToHandler}/jquery-ui/ui/ui.draggable.js"></script>
+<script type="text/javascript" src="${pathToHandler}/moozoom.js"></script>
+<script type="text/javascript" src="${pathToHandler}/jquery-galleriffic-1.0.js"></script>
+<script type="text/javascript" >
+	
+	var pathToHandler = '${pathToHandler}';
+	var homePageURL = '${homepageUrl}';
+	var contentUrl = '${completeContentUrl}';
+	var imageTitleLabel = '${message.getProperty("jpg.imageTitle")}';
+	var imageDescriptionLabel = '${message.getProperty("jpg.imageDescription")}';
+	var descriptionLabel = '${message.getProperty("jpg.description")}';
+	var imageDescriptionIn = descriptionLabel;
+	var previousImageLabel = '${message.getProperty("jpg.previousImage")}';
+	var nextImageLabel = '${message.getProperty("jpg.nextImage")}';
+	var availablePagesLabel = '${message.getProperty("jpg.availablePages")}';
+	var noDescription = '${message.getProperty("jpg.noDescription")}';
+	var objectDescription = "${message.getProperty("jpg.objectDescription")}";
+	var loadingMetadata = '${message.getProperty("jpg.loadObjectDescription")}';
+	var mimeType = '${mimetype}';
+	var ofLabel = '${message.getProperty("of")}';
+	
+	var editionId = "${edition.getId()}";
+	
+	document.write("<style type='text/css'>div.navigation{width:300px;float:left;}div.content{display:block;}</style>");
+</script>
+<script type="text/javascript" src="${pathToHandler}/dlibra-image-gallery-1.0.js">
+</script>
+<div id="hFlat"></div>
+<div id="mainViewerContainer" class="main-container">
+<div id="descriptionBox">
+	<a href="#" onclick="closeDescriptionDialog();"><img id="ddCloseButton" style="float:right;" src="${pathToHandler}/img/close_s.gif" /></a>
+</div>	
+<div id="gallery-adv" class="content">
+	<div id="zooming-options">
+		## leaving CSS seems neccessary for IE
+		<ul id="zooming-options-list">
+			<li id="zoom-options-next-previous">
+				<div id="controls-adv" class="controls">
+				</div>
+			</li>
+			<li id="zoom-options-zoom-list" >
+				<img src="${pathToHandler}/img/i_zoomi.png" id="zoomIcon"/>
+				<select id="zoom-options-select" name="zoom-options-select">
+					<option value="25"> 25%</option>
+					<option value="50"> 50%</option>
+					<option value="75"> 75%</option>
+					<option value="-1" selected="selected"> ${message.getProperty('jpg.fit')}</option>
+					<option value="100"> 100%</option>
+					<option value="150"> 150%</option>
+					<option value="200"> 200%</option>
+				</select>
+			</li>
+			<li id="zoom-options-slider">
+				<div id="percent-slider"></div>
+			</li>
+		</ul>
+		<!---->
+	</div>
+	<div id="page-options">
+		<ul id="page-options-list">	
+		<li class="page-options-option">
+			${message.getProperty('jpg.availablePages')}
+		</li>
+		<li class="page-options-option">
+			<form id="miniaturePagesForm">
+				<select id="miniaturePages" name="minSelect">
+				</select>
+				<span id="ofNumber"></span>
+			</form>
+		</li>
+		<li id="next-previous-buttons">
+			<a href="javascript:selectMiniatures('previous')" title="${message.getProperty('jpg.previous')}">
+				<img  id="page-prev" src="${pathToHandler}/img/prev-site.png"></img>
+			</a>
+			<a  href="javascript:selectMiniatures('next')" title="${message.getProperty('jpg.next')}">
+				<img id="page-next" src="${pathToHandler}/img/next-site.png"></img>
+			</a>
+		</li>
+		</ul>
+	</div>
+	<div id="loading-adv" class="loader"></div>
+	<div id="slideshow-adv" class="slideshow"></div>
+	<div id="caption-adv" class="embox"></div>
+</div>
+<div id="thumbs-adv" class="navigation">
+<div id="thumb_list_container">
+<ul id="thumb_list" class="thumbs noscript">
+</ul>
+</div>
+</div>
+</div>

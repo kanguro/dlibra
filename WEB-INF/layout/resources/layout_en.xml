@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>UTF8</comment>
+<entry key="stat.table.publications">publications</entry>
+<entry key="stat.table.day">day</entry>
+<entry key="stat.table.months">Months</entry>
+<entry key="stat.table.years">Years</entry>
+<entry key="stat.table">Show table with statistics</entry>
+<entry key="stat.format.show">Show statistics as</entry>
+<entry key="stat.csv">csv file</entry>
+<entry key="stat.table">HTML table</entry>
+<entry key="main.meta.clasification">public, digital library, book, sources,  education, science, project</entry>
+<entry key="nav.HOMEPAGE">MAIN PAGE</entry>
+<entry key="nav.loading">loading...</entry>
+<entry key="nav.loginin">Sign in</entry>
+<entry key="nav.or">or</entry>
+<entry key="nav.signup">Register</entry>
+<entry key="nav.saccount">Account</entry>
+<entry key="nav.slogout">Logout</entry>
+<entry key="nav.CONTACT">CONTACT</entry>
+<entry key="admin.doctypes">types of publications</entry>
+<entry key="admin.help">help pages</entry>
+<entry key="admin.logout">log off</entry>
+<entry key="admin.charts">charts</entry>
+<entry key="admin.start">start</entry>
+<entry key="admin.agents-stats">user-agents</entry>
+<entry key="nav.COLLECTIONS">COLLECTIONS</entry>
+<entry key="admin.components">informations' content</entry>
+<entry key="nav.NEWACCOUNT">NEW ACCOUNT</entry>
+<entry key="main.Directory">Entire publication catalogue</entry>
+<entry key="base.Homepage">Main page</entry>
+<entry key="main.RSS.Planned">Planned publications</entry>
+<entry key="admin.subtitle">Reader's Application Management</entry>
+<entry key="main.RSS.News">News</entry>
+<entry key="main.meta.description">dLibra gives you Internet access to eductional resources, cultural inheritance, regional metarials and music.</entry>
+<entry key="admin.news">news</entry>
+<entry key="nav.noOfUSERS">readers on-line</entry>
+<entry key="nav.ACCOUNT">ACCOUNT</entry>
+<entry key="main.meta.keywords">dLibra, creator, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core, publications, edition, book, short story, brochure, print, bookshop, platform system manage digital libraries, sources, wielkopolska biblioteka cyfrowa, naukowa, academic, Poznan, Poznan Foundation of scientific libraries, dlibra, libra, publishing, editing, author, writer, poet, poem, history, lyric, prose, poetry, publication description&#13;
+, cultural inheritance, catalogue, education, monograph, manuals,  regional materials</entry>
+<entry key="main.meta.generator">dLibra - digital libraries - system to create and manage digital library, developed by Poznan Supercomputer and Networking Center, gives you Internet access to eductional resources, cultural inheritance, regional metarials and music.</entry>
+<entry key="nav.LOGOUT">LOGOUT</entry>
+<entry key="admin.errors">errors</entry>
+<entry key="admin.reports">reports</entry>
+<entry key="admin.admin-reports">Reports</entry>
+<entry key="admin.title">dLibra - Administrative panel</entry>
+<entry key="nav.LOGIN">LOGIN</entry>
+<entry key="admin.engine-stats">www engine</entry>
+<entry key="main.RSS.Latest">25 last publications</entry>
+<entry key="admin.nav">Navigation</entry>
+<entry key="admin.admin">Start</entry>
+<entry key="admin.admin-news-list">News list</entry>
+<entry key="admin.admin-help-list">Help pages list</entry>
+<entry key="admin.admin-doctype-list">Documents' types list</entry>
+<entry key="admin.admin-error-list">Error messages list</entry>
+<entry key="admin.admin-link-list">"Informations" box content</entry>
+<entry key="admin.admin-engine-stats">Engine stats</entry>
+<entry key="admin.admin-agents-stats">Browser stats</entry>
+<entry key="admin.admin-link-edit">Link edition</entry>
+<entry key="admin.admin-error-edit">Error edition</entry>
+<entry key="admin.admin-help-edit">Help page edition</entry>
+<entry key="admin.admin-doctype-edit">Document type edition</entry>
+<entry key="admin.admin-news-edit">News edition</entry>
+<entry key="admin.admin-useraccounts">subscriptions</entry>
+<entry key="admin.admin-upload">Upload</entry>
+<entry key="admin.admin-bulletin-remove">Remove subscribtions</entry>
+<entry key="admin.admin-email-change">Change user's email</entry>
+<entry key="layout.popup.title">Title</entry>
+<entry key="base.noJavaScriptWarning"><![CDATA[<p style="font-weight:bold">No JavaScript support!<p> 
+To take full advantage of this digital library, please verify if your browser supports <b><i>JavaScript</i></b>.]]></entry>
+<entry key="content.noJavaScriptWarning"><![CDATA[<p style="font-weight:bold">JavaScript is disabled!<p>
+Disabled support of the <b><i>JavaScript</i></b> may result in display errors of certain publications. Please verify if your browser is operating with <b><i>JavaScript</i></b> support.
+]]></entry>
+<entry key="content.noJS.linkToContent">Click here</entry>
+<entry key="content.noJS.linkToContentCDN">to continue anyway</entry>
+<entry key="help">Help</entry>
+</properties>

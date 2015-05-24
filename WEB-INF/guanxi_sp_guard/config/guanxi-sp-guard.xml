@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Guard xmlns="urn:guanxi:sp">
+  <GuardInfo>
+    <HostName>dlibra-app</HostName>
+    <ID>dlibra-server</ID>
+    <AttributePrefix>HTTP_</AttributePrefix>
+  </GuardInfo>
+  <Cookie>
+    <Domain>dlibra-app</Domain>
+    <Path>/</Path>
+    <Age units="transient" />
+    <Prefix>GUANXI_GUARD_SERVICE_PROVIDER_</Prefix>
+  </Cookie>
+  <EngineInfo>
+    <AuthConsumerURL>https://dlibra-app:8443/engine.guanxiEngineAuthCS</AuthConsumerURL>
+    <WAYFLocationService>https://dlibra-app:8443/engine.guanxiWAYFLocation</WAYFLocationService>
+    <Timeout>10</Timeout>
+  </EngineInfo>
+  <TrustStore>__GUARD_APP_ROOT__/WEB-INF/guanxi_sp_guard/truststore/guard.jks</TrustStore>
+  <TrustStorePassword>1714261229</TrustStorePassword>
+  <Keystore>__GUARD_APP_ROOT__/WEB-INF/guanxi_sp_guard/keystore/guard.jks</Keystore>
+  <KeystorePassword>1649272120</KeystorePassword>
+  <CertificateAlias>webservices</CertificateAlias>
+</Guard>

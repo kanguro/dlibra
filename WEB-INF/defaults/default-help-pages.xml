@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>no-js-help</id>
+		<title>No JavaScript support</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  In order to be able to experience the full functionality of our digital library, you have to turn on JavaScript support in your WWW browser. 
+		  Any WWW browser should have options or preferences window in which you can do this.
+		  <p>Below there are some examples on how to turn on or off the JavaScript support option for specific WWW browsers::</p>
+		  <ul>
+			<li>
+				<b>FireFox 3.6.x</b> - in top toolbar click Tools -> Options -> Content -> Enable JavaScript
+			</li>
+			<li>
+				<b>Internet Explorer 8</b> - on the right side of top menu click Tools -> Internet options -> Security -> Custom level... -> in the section "Scripting" by selecting
+				the option "Active scripting".
+			</li>
+			<li>
+				<b>Opera 10.x</b> in top toolbar click Tools -> Preferences -> Advanced -> Content -> Enable JavaScript  
+			</li>
+		  </ul>
+		  <p>Detailed instructions on turning on and off the JavaScript support can be also found in the WWW browser manual, located in most cases in the “Help” menu.</p>
+		 ]]></body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>en</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>no-js-help</id>
+		<title>Brak wsparcia dla JavaScript</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  Aby móc w pełni korzystać z możliwości naszej biblioteki cyfrowej, musisz włączyć w swojej przeglądarce WWW obsługę JavaScript.
+		  Każda przeglądarka powinna posiadać okno opcji lub preferencji, w którym można to zrobić.
+		  <p>Poniżej znajdują się przykłady włączania i wyłączania JavaScript dla konkretnych przeglądarek:</p>
+		  <ul>
+			<li>
+				<b>FireFox w wersji 3.6.x</b> - w górnym menu należy kliknąć w Narzędzia -> Opcje -> Treść -> Włącz obsługę języka JavaScript.  
+			</li>
+			<li>
+				<b>Internet Explorer 8</b> - w górnym menu po prawej stronie należy kliknąć w Narzędzia -> Opcje internetowe -> Zabezpieczenia -> Poziom niestandardowy..., a następnie w sekcji "Obsługa skryptów" włączyć
+				opcję "Wykonywanie aktywnych skryptów".
+			</li>
+			<li>
+				<b>Opera 10.x</b> w górnym menu należy kliknąć Narzędzia -> Preferencje -> Zaawansowane -> Zawartość -> Włącz obsługę JavaScript  
+			</li>
+		  </ul>
+		  <p>Szczegółowe instrukcje włączania obsługi JavaScript można znaleźć również w dokumentacji przeglądarki WWW, dostępnej zazwyczaj w menu "Pomoc".</p>
+		 ]]></body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>pl</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>address</id>
+		<title>Footer</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  This page is maintained by :
+		  <a id="moreLinks" href="dlibra/help?id=participants">Institution 1, Institution 2</a>
+		]]></body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>en</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>address</id>
+		<title>Stopka</title>
+		<subtitle></subtitle>
+		<body><![CDATA[
+		  Serwis tworzony przez :
+		  <a id="moreLink" href="dlibra/help?id=participants">Instytucja 1, Instytucja 2</a>
+		]]></body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>default</id>
+		<title>Default help page</title>
+		<subtitle></subtitle>
+		<body>
+			Unfortunately help page you are searching for is
+			undefined.&#x0D;
+		</body>
+		<referencesList class="list" />
+		<references></references>
+    <localeName>en</localeName>
+  </pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>default</id>
+		<title>Domyśla strona pomocy</title>
+		<subtitle></subtitle>
+		<body>
+			Niestety strona pomocy której szukasz nie została
+			zdefiniowana.&#x0D;
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>powered-by</id>
+		<title>Wykorzystane rozwiązania</title>
+		<subtitle></subtitle>
+		<body>
+		<![CDATA[
+			<p>
+			Oprogramowanie dLibra korzysta z zestawu ikon <b>Silk Icons</b> autorstwa Pana <b>Marka James`a</b>, które dostępne są
+			pod adresem: <a href="http://www.famfamfam.com/">www.famfamfam.com</a> oraz z zestawu ikon udostępnionych przez
+			firmę <b>FatCow Web Hosting</b>, które można pobrać pod adresem: <a href="http://www.fatcow.com/free-icons/">www.fatcow.com/free-icons</a>.
+			<br/>Zarówno Panu James`owi jak i firmie FatCow Web Hosting serdecznie dziękujemy.
+			</p>
+		 ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>powered-by</id>
+		<title>Used solutions</title>
+		<subtitle></subtitle>
+		<body>
+		<![CDATA[
+			<p style="color:#999;font-size:11px;">
+			The dLibra software extensively uses the Silk Icons set created by Mr Mark James, which is available under
+			this address: <a href="http://www.famfamfam.com/">www.famfamfam.com</a> and also icon sets created by FatCow Web Hosting,
+			which can be downloaded from this site: <a href="http://www.fatcow.com/free-icons/">www.fatcow.com/free-icons</a>.
+			<br/>We thank the producers - Mr James and FatCow Web Hosting company for the opportunity to use those icon sets.
+			</p>
+		 ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>rss</id>
+		<title>What is RSS feed?</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+		&quot;RSS is an XML-based format that allows the syndication of lists of 
+		hyperlinks, along with other information, or metadata, that helps viewers 
+		decide whether they want to follow the link. <br />
+	    RSS allows a person's computer
+		to fetch and understand the information, so that all of the lists that person
+		is interested in can be tracked and personalized for them.&quot; 
+		from <a href="http:\\www.bytowninternet.com/glossary" target="_blank"> bytowninternet.com </a>
+		<br /> <br />
+		Examples of rss readers: 
+	     <a href="http://www.rssowl.org/" target="_blank">RSS Owl</a>, 
+	     <a href="http://sage.mozdev.org/" target="_blank">Sage FireFox plugin </a>, 
+	     <a href="http://www.thunderbird.pl/" target="_blank">Mozilla ThunderBird</a>
+ 	]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>rss</id>
+		<title>Co to jest kanał RSS?</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+		&quot;<b>RSS</b> - umowna rodzina języków znacznikowych do przesyłania nagłówków wiadomości.
+		Wszystkie w wiekszym lub w mniejszym zakresie bazują na XML-u. <br/> Aby &quot;obejrzeć&quot; 
+		kanał RSS musimy skorzystać ze specjalnego programu, który umożliwia odczyt 
+		plików z rozszerzeniem &quot;.xml&quot;.  Często czytniki RSS'ów sa zamieszczane w 
+		programach pocztowych. <br/> 
+	    Wyrózniamy następujące typy przekazywania nagłówków:
+	    <ul>
+         <li>RDF Site Summary (RSS 1.x, RSS 0.90)</li>
+	     <li>Really Simple Syndication (RSS 2.0) </li>
+         <li>Rich Site Summary (RSS 0.91/RSS 0.92/RSS 0.93)</li>
+	    </ul>&quot;
+		 <a href="http://pl.wikipedia.org/wiki/RSS" target="_blank"> Wikipedia.pl </a>
+		<br /> <br />
+		Przykładowe programy do czytania wątków RSS: 
+	     <a href="http://www.rssowl.org/" target="_blank">RSS Owl</a>, 
+	     <a href="http://sage.mozdev.org/" target="_blank">Sage FireFox plugin </a>, 
+	     <a href="http://www.thunderbird.pl/" target="_blank">Mozilla ThunderBird</a>
+	   .]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>about-dlibra</id>
+		<title>O dLibrze...</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+    <p>
+	    <a href="http://dlibra.psnc.pl">dLibra</a> to pierwszy polski system do budowy bibliotek cyfrowych, jest on rozwijany przez 
+	    <a href="http://www.man.poznan.pl">Poznańskie Centrum Superkomputerowo - Sieciowe</a> (PCSS)
+	    od 1999 roku. Rozpoczęcie prac nad tym systemem było efektem badań w zakresie bibliotek 
+	    cyfrowych prowadzonych w PCSS już od 1996 roku. System dLibra jest obecnie 
+	    najpopularniejszym tego typu oprogramowaniem w Polsce.
+	</p>
+	<p>    
+		dLibra jest szeroko wykorzystywana przez instytucje takie jak biblioteki akademickie
+		i publiczne do udostępniania cyfrowych postaci gromadzonych przez nie zbiorów. 
+		Instytucje te, wykorzystując sieć <a href="http://www.pionier.gov.pl">PIONIER</a> i 
+		oprogramowanie dLibra, współtworzą polską platformę rozproszonych bibliotek cyfrowych.
+		Zachęcamy do zapoznania się z aktualną lista wdrożeń systemu dLibra. PCSS oferuje 
+		również szkolenia oraz pomoc techniczną z zakresu wykorzystania oprogramowania dLibra.
+	</p>
+	<p style="text-align:center">
+		<a href="http://dlibra.psnc.pl" target="_blank" title="dlibra">
+			<img src="../style/common/img/about/dlibra-logo.jpg" alt="dLibra" />
+		</a>
+	&nbsp;
+		<a href="http://www.man.poznan.pl" target="_blank" title="pcss">
+			<img src="../style/common/img/about/psnc.gif" alt="pcss" />
+		</a>
+	&nbsp;	
+		<a href="http://www.pionier.gov.pl/" target="_blank" title="pionier">
+			<img src="../style/common/img/about/pionier.gif" alt="pionier" />
+		</a>
+	</p>
+	<br/>
+	<hr/>
+	<p style="text-align:center"><a href="help?id=powered-by">Wykorzystane rozwiązania</a></p>
+	]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<id>about-dlibra</id>
+		<title>About dLibra</title>
+		<subtitle></subtitle>
+		<body>
+			<![CDATA[
+       <p>
+	       <a href="http://dlibra.psnc.pl">dLibra</a> is the first Polish system for building digital libraries, which 
+	       has been developed by the <a href="http://www.man.poznan.pl"Poznan Supercomputing and Networking Center</a> (PSNC) since 1999. 
+	       dLibra is an effect of research in the field of digital libraries which has been performed in PSNC since 1996.dLibra 
+	       system is now the most popular software of this type in Poland. 
+       </p>
+
+	   <p>       
+	       dLibra enables building professional repositories of digital documents which can be accessed by external 
+	       individuals and systems on the Internet. Communication and data exchange is based on well known 
+	       standards and protocols such as: RSS, RDF, MARC, DublinCore or OAI-PMH. Digital libraries based on
+	       dLibra offer to their users expanded possibilities such as: searching the content of stored elements, 
+	       searching bibliographic description with use of synonyms dictionary, grouping digital publications and
+	       navigating in these structure or precise and expanded access rules to elements. Detailed functional 
+	       description of dLibra can be found <a href="http://dlibra.psnc.pl/html/index.php?option=content&task=view&id=13">here</a>.
+	       Description of architecture and technical requirements can be found <a href="http://dlibra.psnc.pl/html/index.php?option=content&task=view&id=14">here</a>.
+       </p>
+
+ 	   <p>
+		   dLibra is used by institutions such as academic and public libraries to make stored digital 
+		   publications available on the Internet. These institutions by using <a href="http://www.pionier.gov.pl">PIONIER</a> 
+		   network and dLibra software create Polish platform of distributed digital libraries. Current list of installations 
+		   of dLibra system is available here. In addition PSNC offers training and technical help in the 
+		   field of dLibra system usage.
+	   </p>
+	   <p>
+	     Main dLibra library page based on <a href="http://www.oswd.org/design/preview/id/2876"> 
+		 Internet Services by LanVacation</a> template.	      
+	  	 Admin panel HTML template based on template by <a href="http://www.minimalistic-design.net">Minimalistic Design</a>.
+	   </p>
+	   	<p style="text-align:center">
+			<a href="http://dlibra.psnc.pl" target="_blank" title="dlibra">
+				<img src="../style/common/img/about/dlibra-logo.jpg" alt="dLibra" />
+			</a>
+		&nbsp;
+			<a href="http://www.man.poznan.pl" target="_blank" title="pcss">
+				<img src="../style/common/img/about/psnc.gif" alt="pcss" />
+			</a>
+		&nbsp;	
+			<a href="http://www.pionier.gov.pl/" target="_blank" title="pionier">
+				<img src="../style/common/img/about/pionier.gif" alt="pionier" />
+			</a>
+		</p>
+		<br/>
+		<hr/>
+		<p style="text-align:center"><a href="help?id=powered-by">Used solutions</a></p>
+		
+	   ]]>
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+	
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<title>Wyniki wyszukiwania - objaśnienie</title>
+		<subtitle></subtitle>
+		<body>
+			&#x0D; Objaśnienie symboli użytych na stronie z wynikami
+			wyszukiwania: &lt;br /&gt;&lt;img
+			src=&quot;../style/common/img/search/synonyms.png&quot;
+			/&gt; - Zapytanie zostało rozszerzone za pomocą synonimów
+			zdefiniowanych w bibliotece cyfrowej.&lt;br /&gt;
+
+			&lt;img
+			src=&quot;../style/common/img/search/synonyms_off.png&quot;
+			/&gt; - Zapytanie nie zostało rozszerzone o zdefiniowane w
+			bibliotece synonimy.
+
+			&lt;br /&gt;&lt;img
+			src=&quot;../style/common/img/search/distributed_off.png&quot;
+			/&gt; - Wyszukiwanie obejmuje tylko zasoby tej biblioteki
+			cyfrowej.
+
+			&lt;br /&gt;&lt;br /&gt;&lt;img
+			src=&quot;../style/common/img/search/backToSearch.png&quot;
+			/&gt; - Powrót do formularza wyszukiwania.&lt;br /&gt;
+
+			&lt;br /&gt;&lt;img
+			src=&quot;../style/common/img/search/link_to_search.png&quot;
+			/&gt; - Odnośnik do wyników wyszukiwania. Klikając w ten
+			adres zostaniemy przeniesieni na stronę z wynikami
+			wyszukiwania. &lt;br /&gt;
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>pl</localeName>
+		<id>search-help</id>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+	<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<title>Search results - glossary</title>
+		<subtitle></subtitle>
+		<body>
+			Description of symbol used for search results page. &lt;br
+			/&gt;&lt;img
+			src=&quot;../style/common/img/search/synonyms.png&quot;
+			/&gt; - Query was extended with synonyms defined in digital
+			library.
+
+			&lt;img
+			src=&quot;../style/common/img/search/synonyms_off.png&quot;
+			/&gt; - Query was not extended with synonyms.
+
+			&lt;br /&gt; &lt;img	src=&quot;../style/common/img/search/backToSearch.png&quot;
+			/&gt; - Back to simple search form.&lt;br /&gt;&lt;br
+			/&gt;&lt;img
+			src=&quot;../style/common/img/search/link_to_search.png&quot;
+			/&gt; - Link to search results. &lt;br /&gt;
+		</body>
+		<referencesList class="list" />
+		<references></references>
+		<localeName>en</localeName>
+		<id>search-help</id>
+	</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<title>Treść dla wyszukiwarek</title>
+		<subtitle/>
+		<body><![CDATA[Treść specjalnie przygotowana dla <a href="http://pl.wikipedia.org/wiki/Robot_internetowy">robotów wyszukiwarek</a>. 
+		Ze względu na specyfikę procesu <a href="http://pl.wikipedia.org/wiki/Indeksowanie_stron">indeksowania</a>  z tak przygotowanego tekstu
+		 usunięte zostały znaki interpunkcyjne, znaki nowej linii oraz znaczniki html.  Powoduje to, że tekst publikacji może nieczytelny 
+		 dla człowieka.]]></body>
+		<referencesList class="list"/>
+		<references></references>
+		<localeName>pl</localeName>
+		<id>plain-content</id>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+		<title>Content for websearchers</title>
+		<subtitle/>
+		<body><![CDATA[Publication's content prepared for <a href="http://en.wikipedia.org/wiki/Web_crawler">web crawler</a>. 
+		Web crawlers read <a href="http://en.wikipedia.org/wiki/Index_%28search_engine%29">index pages</a> in a specific way - 
+		all punctuation signs, newline signs, html tags are removed. Because of that text maybe hard to read for normal (human) 
+		reader.]]></body>
+		<referencesList class="list"/>
+		<references></references>
+		<localeName>en</localeName>
+		<id>plain-content</id>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>	
+
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>example-page</id>
+  <title>Example page</title>
+  <subtitle>Example subtitle</subtitle>
+  <body><![CDATA[
+     <p>
+     You can add new custom information pages easily using dLibra administration panel. Those pages can 
+     contain information about digital library structure or library mission statement.
+     </p>
+     
+     <p>
+     Information pages can be added to "Informations" box at main page of this digital library. In this box
+     You can also place links to digital library's resources or external links to other web pages. 
+     </p>
+     
+     <p>
+     Be sure to delete this page before making Your digital library available to users.     
+     </p>
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>en</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>example-page</id>
+  <title>Przykładowa strona informacyjna</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+  	<p>
+  	To jest przykładowa stron informacyjna. Panel administracyjny aplikacji czytelnika systemu dLibra pozwala
+  	w łatwy sposób dodawać nowe strony pomocy mogą one zawierać informacje o strukturze biblioteki lub opisywać
+  	główne zadania jakie zostały postawione przed biblioteką cyfrową. 
+  	</p>
+  	
+  	<p>
+  	Odnośniki do stron informacyjnych mogą zostać umieszczone w okienku "Informacje" na stronie głównej biblioteki 
+  	cyfrowej. W okienku tym możesz również umieszczać linki do zasobów biblioteki cyfrowej lub do innych 
+  	zewnętrznych storn wwww.
+  	</p>
+  	
+  	<p>
+  	Pamiętaj aby usunać tę stronę informacyjną zanim udostępnisz strony biblioteki cyfrowej czytelnikom!
+  	</p>
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>pl</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>dc-desc</id>
+  <title>Rules of creating publication description</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+<p>
+Dlibra uses <a href="http://dublincore.org">Dublin Core v.1.1</a> as a default publication description format.
+Informations about this metadata scheme are described in <a href="http://dublincore.org/documents/usageguide/">&quot;Using Dublin Core&quot;</a> document.
+</p> 
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>en</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>dc-desc</id>
+  <title>Zasady redakcji opisu publikacji</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+<p>
+Domyślny format opisu publikacji w systemie dLibra to  <a href="http://dublincore.org">Dublin Core v.1.1</a>. Informację o tym jak korzystać z tego formatu opisu zostały omówione w dokumencie
+<a href="http://dublincore.org/documents/usageguide/">
+"Using Dublin Core"</a>.
+</p>
+
+<p>
+Zachęcamy również do zapoznania się z <a href="http://dlibra.psnc.pl/eporadnik.html">"ePoradnik redaktora zasobów cyfrowych"</a> tworzonym przez zespół specjalistów z <a href="http://www.bibliotekacyfrowa.pl/dlibra">Biblioteki Uniwersytetu Wrocławskiego</a>. Zawiera on interpretacje schematu Dublin Core wraz z materiałami pomocniczymi dla redaktorów zasobów cyfrowych w języku polskim.
+</p>  
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>pl</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>text-query-format</id>
+  <title>Proper query syntax</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+<p>
+See  <a href="http://lucene.apache.org/java/2_4_0/queryparsersyntax.html" target="_blank">Jakarta Lucene Query Parser Syntax</a>
+</p>]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>en</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>text-query-format</id>
+  <title>Poprawne formułowanie zapytań</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+<h3>Terminy proste i frazy</h3>
+<p>
+W wyszukiwaniu można używać <b>terminów prostych</b>, czyli pojedynczy wyrazów oraz <b>fraz</b>, czyli wyrażeń złożonych z kilku słów ujętych w cudzysłów np. 
+&quot;<i>Uniwersytet Mikołaja Kopernika</i>&quot;. W przypadku użycia cudzysłowu wyszukiwane będą tylko te dokumenty, które zawierają całą frazę.
+</p>
+<p>
+Terminy wyszukiwawcze można łączyć za pomocą operatorów logicznych. Można też używać tzw. <a href="#ma">znaków maskujących</a>, które zastępują dowolne litery i cyfry oraz ich ciągi, wyszukiwać <a href="#fuz">terminy podobne</a>, znajdujące się <a href="#ne">w pewnej odległości od siebie</a> lub <a href="#boo">określać priorytet</a> wyszukiwanych terminów.
+</p>
+
+<h3>Operatory logiczne</h3>
+
+<p><ul>
+<li><b>AND</b> - zapisywany również jako <b>&amp;&amp;</b> - oznacza, że terminy połączone operatorem muszą <b>jednocześnie</b> występować w przeszukiwanym dokumencie. Np. zapytanie w postaci <b>Kopernik &amp;&amp; Chopin</b> spowoduje wybranie tylko takich dokumentów, w których oba nazwiska występują jednocześnie. Użycie operatora AND jest domyślym zachowaniem wyszukiwarki w przypadku wpisania więcej niż jednego słowa, zatem taki sam wynik uzyskamy  wpisując <b>Kopernik Chopin</b>.</li>
+
+<li><b>OR</b> - oznaczany również <b>||</b> - wymaga, aby <b>przynajmniej jeden</b> z terminów występował w przeszukiwanym dokumencie np. zapytanie <b>Kopernik || Copernicus</b> spowoduje wybranie dokumentów, w których nazwisko astronoma występuje chociaż w jednej z podanych form.</li>
+
+<li><b>NOT</b>  - alternatywny zapis <b>!</b> - <b>wyklucza z listy wyników</b> dokumenty, w których występuje zanegowany termin. Np. zapytanie <b>&quot;Nicolaus Copernicus&quot; NOT university</b> wyszuka dokumenty, zawierające frazę &quot;<i>Nicolaus Copernicus</i>&quot;, ale nie zawierające jednocześnie słowa <i>university</i>. Operator ten nie może być stosowany samodzielnie, np. zapytanie w postaci <i>NOT &quot;Nicolaus Copernicus&quot;</i> nie zwróci poprawnych wyników.</li>
+
+<li><b>+</b> (operator terminu wymaganego) - wyszukuje dokumenty zawierające termin następujący bezpośrednio po &quot;+&quot;, lecz niekoniecznie pozostałe terminy, np. <b>+biblioteka uniwersytecka</b> spowoduje wybranie dokumentów, które muszą zawierać słowo <i>biblioteka</i> i mogą (ale nie muszą) zawierać słowo: <i>uniwersytecka</i>.</li>
+
+<li><b>-</b> (operator terminu zakazanego) - działa podobnie jak operator NOT. Zapytanie <b>&quot;Nicolaus Copernicus&quot; -&quot;Nicolaus Copernicus University&quot;</b> wyszuka dokumenty zawierające nazwisko &quot;<i>Nicolaus Copernicus</i>&quot;, lecz nie zawierające nazwy &quot;<i>Nicolaus Copernicus University</i>&quot;.</li>
+</ul>
+<p />
+
+<h3>Znaki maskujące</h3><a name="ma">&nbsp;</a>
+
+<p>
+<ul>
+<li><b>?</b> - zastępuje jeden dowolny znak.  Np. zapytanie <b>Kowalsk?</b> pasuje zarówno do Kowalsk<b>i</b>, jak i Kowalsk<b>a</b>.</li>
+
+<li><b>*</b> - zastępuje ciąg znaków np. zapis: <i>bu<b>*</b>a</i> spowoduje wyszukanie takich słów jak bu<b>d</b>a, bu<b>dd</b>a, bu<b>ddyst</b>a, bu<b>tonierk</b>a itp.
+Znaku maskującego nie wolno umieszczać na początku wyrażenia wyszukiwawczego.</li>
+</ul>
+<p/>
+
+<h3>Wyszukiwanie rozmyte</h3><a name="fuz">&nbsp;</a>
+
+<p>
+Wyszukiwanie rozmyte (fuzzy search) znajduje zastosowanie w wypadku terminów prostych podobnych do siebie np. <i>Copernicus</i>, <i>Copernikus</i>, <i>Kopernikus</i>. Dokumenty zawierające te terminy można wyszukać dodając znak tyldy do terminu: <b>copernicus~</b>.
+</p>
+
+<p>
+Stopień poszukiwanego podobieństwa, można określić współczynnikiem, który zmienia się w zakresie od 0 (brak podobieństwa) do 1 (terminy identyczne). Domyślnie współczynnik podobieństwa ustawiony jest na wartość 0.5. Aby ją zmienić, do wyszukiwanego terminu należy dodać  znak tyldy wraz z wyraźnie określonym współczynnikiem, np. <b>kopernik~0.4</b>.
+</p>
+
+<h3>Wyszukiwanie wg sąsiedztwa</h3><a name="ne">&nbsp;</a>
+
+<p>
+Możliwe jest również określenie w jakiej odległości ma się znajdować jednen z wyszukiwanych terminów od innego (tzw. proximity search). Jeśli np. pamiętamy, że dokumencie w niewielkiej odległości od siebie pojawiały się wyrażenia <i>Choral-buch</i> oraz <i>Westpreussen</i>, możemy użyć następującego zapytania: <b>&quot;Choral-buch Westpreussen&quot;~6</b>.
+</p>
+
+<h3>Określanie ważności terminu</h3><a name="boo">&nbsp;</a>
+
+<p>
+Można określić priorytet wyszukiwanego terminu przez dodanie znaku <b>^ wraz z liczbą</b> (większą
+niż 1). Np. zapytanie <b>stempowski^4 grydzewski</b> zwróci dokumenty, w których występują oba nazwiska, ale na początku listy znajdą się te, w których częściej pojawia się nazwisko oznaczone wyższym priorytetem. Domyślny priorytet wyszukiwania wynosi 1.
+</p>
+
+
+<h3>Łączenie zapytań</h3>
+
+<p>
+Wyrażenia w zapytaniach złożonych można grupować za pomocą nawiasów. Zabieg taki pozwala nadać rozbudowanym zapytaniom zamierzony, jednoznaczny sens, podobnie jak to się dzieje w działaniach arytmetycznych.
+</p>
+
+<p>
+Najpierw przetwarzane są wyrażenia cząstkowe wewnątrz nawiasów, a następnie większe całości. Zapytanie o kształcie: <b>&quot;De revolutionibus orbium coelestium&quot; AND (Copernicus OR Kopernik)</b> spowoduje wyszukanie dokumentów, w ktorych występuje tytuł dzieła Kopernika oraz jego nazwisko przynajmniej w jednej z dwóch form.
+</p>
+
+
+<h3>Znaki specjalne</h3>
+
+<p>
+Ze zrozumiałych względów znaki służące do budowania zapytań złożonych (+ - &amp;&amp; || ! ( ) { } [ ] ^ &quot; ~ * ? : \) są traktowane podczas wyszukiwania inaczej niż pozostałe: pełnią rolę elementów składni zapytania, a nie cząstek wyszukiwanego wyrażenia. Aby objąć je procesem
+wyszukiwania należy umieścić przed nimi tzw. znak ucieczki <b>\</b>. Np. w celu wyszukania frazy &quot;(2 + 2)*2&quot; należy wpisać &quot;<b>\( 2 \+ 2 \) \* 2</b>&quot;
+</p>
+
+<h3>Źródło opisu</h3>
+
+<p>
+Pełny opis sposobu formułowania zapytań (strona w języku angielskim): <a href="http://lucene.apache.org/java/2_4_0/queryparsersyntax.html" target="_blank">Jakarta Lucene Query Parser Syntax.</a>
+</p>
+
+<p>
+Tekst oryginalnie zamieszczony na stronach <a href="http://kpbc.umk.pl/">Kujawsko-Pomorskiej Biblioteki Cyfrowej</a>.
+</p>
+<p>
+ <a href="http://creativecommons.org/licenses/by-sa/2.5/pl/" rel="license">
+<img src="http://i.creativecommons.org/l/by-sa/2.5/pl/80x15.png" style="border-width: 0pt; vertical-align: bottom;" alt="Creative Commons License" />
+</a>
+Ten utwór jest dostępny na 
+<a href="http://creativecommons.org/licenses/by-sa/2.5/pl/" rel="license">licencji Creative Commons Uznanie autorstwa-Na tych samych warunkach 2.5 Polska</a>.
+</p>]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>pl</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>regulations</id>
+  <title>Example page with regulations</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+  	<p>
+  	Here should be the regulations acceptable by the user who intends to upload the publication.
+  	</p>
+  	
+  	<p>
+  	Be sure to edit this page before upload will be available to users.
+  	</p>
+  
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>en</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+
+<pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+  <id>regulations</id>
+  <title>Przykładowa strona z regulaminem</title>
+  <subtitle></subtitle>
+  <body><![CDATA[
+  	<p>
+  	Tutaj powinien znajdować się regulamin do zaakceptowania przez użytkownika zamierzającego wgrać publikację.
+  	</p>
+  	
+  	<p>
+  	Pamiętaj aby zredagować tę stronę zanim udostępnisz czytelnikom możliwość wgrywania publikacji!
+  	</p>
+  ]]></body>
+  <referencesList class="list" />
+  <references></references>
+  <localeName>pl</localeName>
+</pl.psnc.dlibra.web.comp.resources.item.HelpItem>
+</list>

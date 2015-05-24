@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">DjVu browser plug-in required</entry>
+<entry key="message.title">DjVu browser plug-in required</entry>
+<entry key="message.body"><![CDATA[
+		<p>
+	    To view this document you will need DjVu browser plugin.
+	    </p>  
+		<ul>
+		<li>For <b>Windows</b> systems: <a href="http://www.djvu.com.pl/download/DjVuBrowserPlugin.msi" target="_blank">LizardTech</a>.</li>  
+        <li>For <b>Linux</b> systems: <a href="http://djvu.sourceforge.net/" target="_blank">DjVuLibre</a>.</li>
+        </ul><br/>
+]]></entry>
+<entry key="test.error.title">Required software is not installed!</entry>
+</properties>

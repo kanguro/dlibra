@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE exlibrises [
+	<!ELEMENT img (#PCDATA)>
+	<!ELEMENT link (#PCDATA)>
+	<!ELEMENT exlibris (img,link)>
+	<!ELEMENT attribute-value (exlibris+)>
+	<!ATTLIST attribute-value value CDATA #REQUIRED>
+	<!ELEMENT attribute (attribute-value+)>
+	<!ATTLIST attribute rdfname CDATA #REQUIRED>
+	<!ELEMENT exlibrises (attribute*)>
+]>
+<exlibrises>
+<attribute rdfname="Rights">
+<attribute-value value="Biblioteka Uniwersytecka w Poznaniu">
+<exlibris>
+<img>bu-poznan.png</img>
+<link>http://lib.amu.edu.pl/</link>
+</exlibris>
+</attribute-value>
+</attribute>
+</exlibrises>

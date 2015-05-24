@@ -1,0 +1,87 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="${userLanguage}" />		
+        <title>${res.getProperty("base.library.full")} #if (${pageTitle} ) - $!{pageTitle} #end </title>
+        <meta name="Author" content="PSNC, Poznan Supercomputer and Networking Center" />
+        <meta name="Design" content="PSNC, Poznan Supercomputer and Networking Center" />
+        <meta name="Publisher" content="PSNC, Poznan Supercomputer and Networking Center" />
+        <meta name="Copyright" content="Copyright (C) 2003 - 2006 PSNC, Poznan Supercomputer and Networking Center" />
+        <meta http-equiv="Reply-to" content="dlibra.at.man.poznan.pl" />
+
+        <meta name="Rating" content="general" />
+        <meta name="MSSmartTagsPreventParsing" content="true" />
+        <meta name="Robots" content="index, follow" />
+        <meta http-equiv="Distribution" content="global" />
+        <meta name="Revisit-after" content="3 days" />
+        <meta http-equiv="Pragma" content="NoCache" />
+
+	#if($pageTitle == ${res.getProperty("base.Homepage")} )
+	  <meta name="Description" content="${res.getProperty("main.meta.description")}" />
+	#else
+	  <meta name="Description" content="${res.getProperty("base.library.full")}, #if((${pageSubtitle})&&(${pageSubtitle})!=${res.getProperty("base.library.full")})$!{pageSubtitle},#end $!{pageTitle}" />
+	#end
+	
+        <meta name="Classification" content="${res.getProperty("main.meta.clasification")}" />
+        <meta name="Keywords" content="${res.getProperty("main.meta.keywords")}" />
+        <meta name="Generator" content="${res.getProperty("main.meta.generator")}" />
+        
+		
+		<link rel="stylesheet" href="${homepageUrl}/style/dlibra/${styleVariant}/simple-content.css" type="text/css" media="screen" />
+		 <!--[if IE]> 
+		 	<link rel="stylesheet" href="${homepageUrl}/style/dlibra/${styleVariant}/simple-content-ie.css" type="text/css" media="screen" /> 
+		 <![endif]-->
+
+		<link rel="shortcut icon" href="${homepageUrl}/style/favicon.ico" type="image/ico" />
+		#foreach( $comp in $headerTags)	 
+			$!{comp.RenderedTemplate} 
+		#end
+		
+		<script type="text/javascript" src="${homepageUrl}/style/common/js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="${homepageUrl}/style/dlibra/js/dlibra.js"></script>
+		<script type="text/javascript" src="${homepageUrl}/style/common/js/jquery-block-ui-1.32.js"></script>
+	<script type="text/javascript" src="${homepageUrl}/style/common/js/jquery-tooltip/jquery-tooltip-dlibra-1.3.js"></script>
+		
+		<script type="text/javascript"><!--  
+		   var DLAppVars = {};
+		   DLAppVars.loginLink = '$!{loginLink}';
+		   var homePageUrl = '${homepageUrl}/';
+		   var homePageServletUrl = '${homepageUrl}${servletName}';
+		   var mainServletName = '${mainServletName}';
+		   var userLanguage = '${userLanguage}';
+		   var userStyleVariant = '${styleVariant}';
+		//--></script>
+		
+</head>
+<body>
+<script type="text/javascript">
+
+##
+## refresh web tools if content is displayed
+##
+
+#if($pageId != "webtools")
+
+var webToolsIf = parent.document.getElementById("webToolsIframe");
+
+if(typeof webToolsIf != 'undefined' && webToolsIf != null){
+	webToolsIf.contentWindow.location.reload();
+}
+
+#end
+</script>
+<div id="loginReminder">
+${res.getProperty("webtoolbar.LoginInfo")}
+</div>
+<div id="securedContent" #if($pageId == "applet") class="contentIE" #end> ## class "contentIE" fixes IE differences for viewing content (simple-content-ie.css)
+#foreach( $comp in $content)
+  $!{comp.RenderedTemplate}
+#end
+</div>
+<div id="info">
+#foreach( $comp in $info)
+	$!{comp.RenderedTemplate}
+#end
+</div>
+</body>
+</html>

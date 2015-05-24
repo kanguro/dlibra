@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">xhtml:viewer</entry>
+<entry key="handled.mime.types">application/octet-stream</entry>
+<entry key="handles.secured">true</entry>
+<entry key="handles.normal">true</entry>
+<entry key="handled.filenames">mainfile.xhtml</entry>
+<entry key="overrides.browser">false</entry>
+</properties>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">mono-jpg_js:viewer</entry>
+<entry key="handled.mime.types">image/jpeg,image/gif,image/png</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+<entry key="overrides.browser">true</entry>
+</properties>

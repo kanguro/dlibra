@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">html:applet</entry>
+<entry key="handled.mime.types">text/html,image/gif,image/jpeg,image/png,text/plain,text/css</entry>
+<entry key="handles.secured">true</entry>
+<entry key="handles.normal">false</entry>
+<entry key="overrides.browser">false</entry>
+</properties>

@@ -1,0 +1,11 @@
+#set ( $width = "100%" )
+#set ( $height = "100%" )
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+ width="${width}" 
+ height="${height}" id="theMovie">
+      <param name="FlashVars" value="zoomifyImagePath=${completeContentBaseUrl}">
+      <param name="menu" value="false">
+      <param name="src" value="${pathToHandler}/zoomifyViewer.swf">
+      <embed FlashVars="zoomifyImagePath=${completeContentBaseUrl}" src="${pathToHandler}/zoomifyViewer.swf" menu="false" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"  width="${width}" height="${height}" name="theMovie"></EMBED>
+</object>

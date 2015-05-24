@@ -1,0 +1,25 @@
+<attributors xmlns="urn:guanxi:idp">
+  <!-- This file tells the Guanxi Identity Provider what classes to load to
+       obtain attributes for a user. For each attribute store you may have
+       you can uncomment an attributor entry. Guanxi will aggregate all
+       attributes from all enabled attributors.
+  -->
+
+  <!-- Flat flat attributor -->
+  <!--
+  <attributor type="org.guanxi.idp.attributors.FlatFileAttributor" />
+  -->
+  
+  <!-- dLibra attributor -->  
+  <attributor type="pl.psnc.dlibra.web.guanxi.idp.atributors.DlibraAttributor"/>
+  
+  <!-- LDAP attributor -->
+  <!--
+  <attributor type="org.guanxi.idp.attributors.LDAPAttributor" />
+  -->
+
+  <!-- Bodington attributor -->
+  <!--
+  <attributor type="org.guanxi.idp.attributors.BodingtonAttributor" />
+  -->
+</attributors>

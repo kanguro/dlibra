@@ -1,0 +1,23 @@
+<h4>
+	${message.getProperty("message.title")}
+</h4>
+<div>
+<!--[if IE]>
+<object ID="myDjVu" classid="clsid:0e8d0700-75df-11d3-8b4a-0008c7450c4a" width="325" height="53">
+<PARAM NAME="src" VALUE="${homepageUrl}/style/common/img/icons/succ_${userLanguage}.djvu?djvuopts&menu=false&toolbar=false">
+<p id="testMessageBodyFailure${warn_handler_id}" class="testFailureMessage">
+	<img src="${homepageUrl}/style/common/img/icons/warning_sm.png" class="errorIcon" />
+	${message.getProperty("test.error.title")}
+</p>    
+</object>
+<![endif]-->
+<!--[if !IE]> <!-->
+<object type="image/vnd.djvu" data="${homepageUrl}/style/common/img/icons/succ_${userLanguage}.djvu?djvuopts&menu=false&toolbar=false" style="border:0px;" width="325" height="60">
+<p id="testMessageBodyFailure${warn_handler_id}" class="testFailureMessage">
+	<img src="${homepageUrl}/style/common/img/icons/warning_sm.png" class="errorIcon" />
+	${message.getProperty("test.error.title")}
+</p>    
+</object>
+<!--<![endif]-->
+${message.getProperty("message.body")}
+</div>

@@ -1,0 +1,8 @@
+<list>
+	<task>pl.psnc.dlibra.web.guanxi.idp.register.IdentityConfigurator</task>
+	<task>pl.psnc.dlibra.web.guanxi.engine.periodic.IdpMetadataDownloaderTask</task>
+	<task>pl.psnc.dlibra.web.guanxi.engine.periodic.MetadataLoaderTask</task>
+	<task>pl.psnc.dlibra.web.guanxi.idp.periodic.SPListDownloadingTask</task>
+	<task>pl.psnc.dlibra.web.guanxi.sec.TruststoreDownloadingTask</task>
+	<task>pl.psnc.dlibra.web.guanxi.idp.periodic.IdPConfigurationReloadingTask</task>
+</list>

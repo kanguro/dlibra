@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!--
+ In case of any problems with securing PDF files you may try to use alternative format writer based on iText. 
+-->
+<!--
+ <entry key="secured.format.writer.class">pl.psnc.dlibra.web.comp.formats.writers.ItextSecuredPdfFormatWriter</entry>
+-->
+<entry key="handler.id">pdf:browser</entry>
+<entry key="handled.mime.types">application/pdf</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+<entry key="overrides.browser">true</entry>
+</properties>

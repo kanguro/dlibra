@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="handler.id">djvu:browser</entry>
+<entry key="handled.mime.types">image/x.djvu</entry>
+<entry key="handles.secured">false</entry>
+<entry key="handles.normal">true</entry>
+</properties>

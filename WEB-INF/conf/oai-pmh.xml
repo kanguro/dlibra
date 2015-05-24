@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<metadataFormat>
+		<metadataPrefix>oai_qdc</metadataPrefix>
+		<label>Qualified Dublin Core Metadata</label>
+		<metadataNamespace>
+	urn:dc:qdc:container
+		</metadataNamespace>
+			<schemaLocation>http://dublincore.org/schemas/xmls/qdc/2003/04/02/qualifieddc.xsd
+			</schemaLocation>
+		<additionalMetadataNamespace>
+			<namespacePrefix>dc</namespacePrefix>
+			<schemaLocation>http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd
+			</schemaLocation>
+			<namespace>http://purl.org/dc/elements/1.1/</namespace>
+		</additionalMetadataNamespace>
+		<additionalMetadataNamespace>
+			<namespacePrefix>dcterms</namespacePrefix>
+			<schemaLocation>http://dublincore.org/schemas/xmls/qdc/2003/04/02/dcterms.xsd
+			</schemaLocation>
+			<namespace>http://purl.org/dc/terms/</namespace>
+		</additionalMetadataNamespace>
+		<attributeFormat>dcterms</attributeFormat>
+		<element name="qualifieddc">
+			<elements>
+				<element name="dcterms:abstract">abstract</element>
+				<element name="dcterms:accessRights">accessRights</element>
+				<element name="dcterms:accrualMethod">accrualMethod</element>
+				<element name="dcterms:accrualPeriodicity">accrualPeriodicity</element>
+				<element name="dcterms:accrualPolicy">accrualPolicy</element>
+				<element name="dcterms:alternative">alternative</element>
+				<element name="dcterms:audience">audience</element>
+				<element name="dcterms:available">available</element>
+				<element name="dcterms:bibliographicCitation">bibliographicCitation</element>
+				<element name="dcterms:conformsTo">conformsTo</element>
+				<element name="dc:contributor">contributor</element>
+				<element name="dc:coverage">coverage</element>
+				<element name="dcterms:created">created</element>
+				<element name="dc:creator">creator</element>
+				<element name="dc:date">date</element>
+				<element name="dcterms:dateAccepted">dateAccepted</element>
+				<element name="dcterms:dateCopyrighted">dateCopyrighted</element>
+				<element name="dcterms:dateSubmitted">dateSubmitted</element>
+				<element name="dc:description">description</element>
+				<element name="dcterms:educationLevel">educationLevel</element>
+				<element name="dcterms:extent">extent</element>
+				<element name="dcterms:format">format</element>
+				<element name="dcterms:hasFormat">hasFormat</element>
+				<element name="dcterms:hasPart">hasPart</element>
+				<element name="dcterms:hasVersion">hasVersion</element>
+				<element name="dc:identifier">identifier</element>
+				<element name="dcterms:instructionalMethod">instructionalMethod</element>
+				<element name="dcterms:isFormatOf">isFormatOf</element>
+				<element name="dcterms:isPartOf">isPartOf</element>
+				<element name="dcterms:isReferencedBy">isReferencedBy</element>
+				<element name="dcterms:isReplacedBy">isReplacedBy</element>
+				<element name="dcterms:isRequiredBy">isRequiredBy</element>
+				<element name="dcterms:issued">issued</element>
+				<element name="dcterms:isVersionOf">isVersionOf</element>
+				<element name="dc:language">language</element>
+				<element name="dcterms:license">license</element>
+				<element name="dcterms:mediator">mediator</element>
+				<element name="dcterms:medium">medium</element>
+				<element name="dcterms:modified">modified</element>
+				<element name="dcterms:provenance">provenance</element>
+				<element name="dc:publisher">publisher</element>
+				<element name="dcterms:references">references</element>
+				<element name="dc:relation">relation</element>
+				<element name="dcterms:replaces">replaces</element>
+				<element name="dcterms:requires">requires</element>
+				<element name="dc:rights">rights</element>
+				<element name="dcterms:rightsHolder">rightsHolder</element>
+				<element name="dc:source">source</element>
+				<element name="dcterms:spatial">spatial</element>
+				<element name="dc:subject">subject</element>
+				<element name="dcterms:tableOfContents">tableOfContents</element>
+				<element name="dcterms:temporal">temporal</element>
+				<element name="dc:title">title</element>
+				<element name="dc:type">type</element>
+				<element name="dcterms:valid">valid</element>
+			</elements>
+		</element>
+	</metadataFormat>
+	<metadataFormat>
+		<metadataPrefix>oai_etdms</metadataPrefix>
+		<label>An Interoperability Metadata Standard for Electronic Theses and
+			Dissertations</label>
+		<metadataNamespace>http://www.ndltd.org/standards/metadata/etdms/1.0/
+		</metadataNamespace>
+		<schemaLocation>http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd
+		</schemaLocation>
+		<attributeFormat>etd</attributeFormat>
+		<element name="thesis">
+			<elements>
+				<element name="oai_etdms:alternativeTitle">alternativeTitle</element>
+				<element name="oai_etdms:contributor">
+					<regExp>(\w+) ?\((\w+)\.?\)</regExp>
+					<skipIfMatches>true</skipIfMatches>
+					contributor
+				</element>
+				<element name="oai_etdms:contributor">
+					<attribute>
+						<name>role</name>
+						<valueGroup>2</valueGroup>
+					</attribute>
+					<regExp>(\w+) ?\((\w+)\.?\)</regExp>
+					<group>1</group>
+					contributor
+				</element>
+				<element name="oai_etdms:coverage">coverage</element>
+				<element name="oai_etdms:creator">creator</element>
+				<element name="oai_etdms:date">date</element>
+				<element name="oai_etdms:degree">
+					<elements>
+						<element name="oai_etdms:name">degree.name</element>
+						<element name="oai_etdms:discipline">degree.discipline</element>
+						<element name="oai_etdms:grantor">degree.grantor</element>
+						<element name="oai_etdms:level">degree.level</element>
+					</elements>
+				</element>
+				<element name="oai_etdms:description">description</element>
+				<element name="oai_etdms:description">
+					<attribute>
+						<name>role</name>
+						<value>note</value>
+					</attribute>
+					description.note
+				</element>
+				<element name="oai_etdms:description">
+					<attribute>
+						<name>role</name>
+						<value>release</value>
+					</attribute>
+					description.release
+				</element>
+				<element name="oai_etdms:identifier">identifier</element>
+				<element name="oai_etdms:language">language</element>
+				<element name="oai_etdms:publisher">publisher</element>
+				<element name="oai_etdms:relation">relation</element>
+				<element name="oai_etdms:rights">rights</element>
+				<element name="oai_etdms:source">source</element>
+				<element name="oai_etdms:subject">subject</element>
+				<element name="oai_etdms:title">title</element>
+				<element name="oai_etdms:type">type</element>
+			</elements>
+		</element>
+	</metadataFormat>
+</list>

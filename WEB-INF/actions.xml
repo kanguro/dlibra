@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE actions [
+<!ELEMENT action (properties?)>
+<!ATTLIST action name ID #REQUIRED>
+<!ELEMENT actions (action+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT properties (property+)>
+<!ELEMENT property (name,value)>
+<!ELEMENT value (#PCDATA)>
+]>
+
+<actions>
+	<!-- Action, by default, sends permission request to creator of publication but
+		 administrator can also specify list of additional addresses to which permission
+		 request should be send -->
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.SendPermissionRequestAction">
+		<properties>
+			<!-- e-mail addresses separated by ; 
+			<property>
+				<name>to.web.mail</name>
+				<value>foo@bar.foo</value>
+			</property> -->
+			<!-- mime type of message: text/html or text/plain -->
+			<property>
+				<name>mime.type</name>
+				<value>text/plain</value>
+			</property>		
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.PublicationFilesUploadFinalizationAction">
+		<properties>
+			<!-- 
+				send.mail.create - send e-mail message after every publication creation
+			-->
+			<property>
+				<name>send.mail.create</name>
+				<value>true</value>
+			</property>
+			<!-- 
+				send.mail.edit - send e-mail message after every change of publication
+			-->
+			<property>
+				<name>send.mail.edit</name>
+				<value>true</value>
+			</property>		
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.SendMailAction">
+		<properties>
+		    <property>
+		      <name>to.web.mail</name>
+		      <value></value>
+		    </property>
+		    <property>
+		      <name>mime.type</name>
+		      <!-- valid values: text/html, text/plain -->
+		      <value>text/html</value>
+		    </property>
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.AddBookmarkTagAction">
+		<properties>
+			<property>
+				<name>accept.all.tags</name>
+				<value>false</value>
+			</property>
+			<property>
+				<name>max.tag.length</name>
+				<value>100</value>
+			</property>			
+			<property>
+				<name>min.tag.length</name>
+				<value>3</value>
+			</property>			
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.CreateAccountAction">
+		<properties>
+			<property>
+				<name>min.login.lenght</name>
+				<value>4</value>
+			</property>
+			<property>
+				<name>max.login.lenght</name>
+				<value>25</value>
+			</property>			
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.SendInfoAction">
+		<properties>
+			<property>
+				<name>printAttParents</name>
+				<value>true</value>
+			</property>		
+		</properties>
+	</action>
+	<action name="pl.psnc.dlibra.web.comp.pages.actions.SearchAction">
+		<properties>
+			<!--  Results per page in search results list.
+			<property>
+				<name>hits.per.page</name>
+				<value>25</value>
+			</property>		
+			-->
+		</properties>
+	</action>
+	
+</actions>

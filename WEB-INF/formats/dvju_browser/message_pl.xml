@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">Wymagana wtyczka DjVu dla przeglądarki</entry>
+<entry key="message.title">Wymagana wtyczka DjVu dla przeglądarki</entry>
+<entry key="message.body"><![CDATA[
+		<p>Aby móc przeglądać treść należy zainstalować program umożliwiający przeglądanie dokumentów DjVu.</p>
+        <ul> 
+        <li>Dla systemów <b>Windows</b> : <a href="http://www.djvu.com.pl/download/DjVuBrowserPlugin.msi" target="_blank">LizardTech DjVu plugin</a>.</li>
+        <li>Dla systemów <b>Linux</b> : <a href="http://djvu.sourceforge.net/" target="_blank">DjVuLibre</a>.</li>
+        </ul><br/>
+]]></entry>
+<entry key="test.error.title">Brak wymaganego oprogramowania!</entry>
+</properties>

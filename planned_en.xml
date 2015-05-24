@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/">
+  <title>Planned publications</title>
+  <link rel="alternate" href="http://dlibra-app:8080/dlibra/plannedpubs" />
+  <subtitle>List of planned publications in</subtitle>
+  <updated>2013-05-02T16:08:43Z</updated>
+  <dc:date>2013-05-02T16:08:43Z</dc:date>
+</feed>
+

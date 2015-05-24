@@ -1,0 +1,60 @@
+#parse("parts/admin-header.vm")
+
+<div id="wrap">
+	<div id="top"></div>
+	<div id="content">
+
+		<div class="header">
+			#foreach( $comp in $top)
+				  	$!{comp.RenderedTemplate}
+			#end				
+		
+			<h1>
+				 <a href="${homepageUrl}${servletName}/admin">
+				 	$res.getProperty("admin.title")
+				 </a>
+			</h1>
+			<h2>
+				$res.getProperty("admin.subtitle")
+			</h2>
+		</div>
+	
+		<div class="breadcrumbs">
+			#adminBreadcrumbs()
+		</div>
+
+		<div class="middle">
+			 #foreach( $comp in $middle)
+				  	<h2>$!{comp.ComponentTitle}</h2>
+				  	$!{comp.RenderedTemplate}
+			 #end				
+		</div>
+		
+		<div class="right">
+			<h2>${res.getProperty("admin.nav")}</h2>
+	
+			#adminNav()
+	
+			#foreach( $comp in $right)
+			  	<h2>$!{comp.ComponentTitle}</h2>
+			  	$!{comp.RenderedTemplate}
+			#end				
+		</div>
+	
+		<div id="clear"></div>
+
+	</div>
+
+	<div id="bottom"></div>
+
+</div>
+
+<div id="footer">
+	
+  #foreach( $comp in $footer)
+	  	$!{comp.RenderedTemplate}
+  #end				
+  
+</div>
+
+#parse("parts/bottom.vm")

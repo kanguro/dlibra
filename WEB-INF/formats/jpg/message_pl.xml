@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="jpg.loading">Proszę czekać...</entry>
+<entry key="jpg.errorImage">Wystąpił błąd podczas ładowania obrazka</entry>
+<entry key="jpg.availablePages">Dostępne strony</entry>
+<entry key="jpg.zoomOptions">Opcje powiększenia</entry>
+<entry key="jpg.rotateLeft">Obróć w lewo</entry>
+<entry key="jpg.rotateRight">Obróć w prawo</entry>
+<entry key="jpg.next">Następny</entry>
+<entry key="jpg.previous">Poprzedni</entry>
+<entry key="jpg.nextPage">Następna strona</entry>
+<entry key="jpg.previousPage">Poprzednia strona</entry>
+<entry key="displayed.name">Przeglądarka plików JPG</entry>
+<entry key="test.success.title">Wymagane oprogramowanie jest zaistalowane.</entry>
+<entry key="message.title">Przeglądarka plików JPG</entry>
+<entry key="message.body"><![CDATA[
+Do przeglądania prezentacji JPG za pomocą apletu JavaFX potrzebna jest instalacja 
+oprogramowania Java firmy Oracle. Najnowszą wersję oprogramowania
+można pobrać ze strony <a href="http://java.com" target="_blank">Java.com</a>.
+<p id="operaAddWarn" class="operaAlert" style='display:none;'>Uwaga! Aplety JavaFX nie są obsługiwane w przeglądarce Opera.</p>
+]]></entry>
+<entry key="test.error.title">Brak wymaganego oprogramowania!</entry>
+<entry key="test.error.opera.title"><![CDATA[Brak wsparcia dla JavaFX w przeglądarce Opera.<p>Spróbuj wybrać inną opcję przeglądania, bądź wyświetl prezentację w innej przeglądarce (np. w Firefox).</p>]]></entry>
+</properties>

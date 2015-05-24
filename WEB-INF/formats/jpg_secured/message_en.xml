@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="displayed.name">Java applet for JPG presentations</entry>
+<entry key="message.title">Java applet for JPG presentations</entry>
+<entry key="message.body"><![CDATA[
+To browse content in JPG presentations using Java applet you must install 
+Sun's Java Virtual Machine. You can download it 
+from  <a href="http://java.com" target="_blank">official website</a>.
+]]></entry>
+<entry key="test.success.title">Required software is installed.</entry>
+<entry key="test.error.title">Required software is not installed!</entry>
+</properties>

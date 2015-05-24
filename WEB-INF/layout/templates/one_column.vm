@@ -1,0 +1,74 @@
+#parse("parts/header.vm")
+
+#if($isSecure == false)
+<script type="text/javascript">
+	
+	var webToolsIf = parent.document.getElementById("webToolsIframe");
+
+	if(typeof webToolsIf != 'undefined' && webToolsIf != null){
+		webToolsIf.contentWindow.location.reload();
+	}
+	
+</script>
+#end
+
+#if ( $pageId == "content-top" || $pageId == "content-sidebar" )
+	<script type="text/javascript">
+		if (window == top){
+		    var url = window.location.href;
+			url = url.replace("$pageId", "doccontent");
+			top.location.href = url;
+		}
+	</script>
+#end	
+
+#if ( ${main.size()} > 0 )
+	<div class="main">
+	#foreach( $comp in $main)
+	   #if($!{comp.ComponentTitle}!= "")
+		<h3>$!{comp.ComponentTitle}</h3>
+	   #end
+	   <div class="main_articles">
+ 		     $!{comp.RenderedTemplate}
+	   </div>
+	#end	
+	</div>
+#end
+
+#if ( ${main_absolute.size()} > 0 )
+	<div class="main_absolute">
+	#foreach( $comp in $main_absolute)
+	   #if($!{comp.ComponentTitle}!= "")
+		<h3>$!{comp.ComponentTitle}</h3>
+	   #end
+	   <div class="main_articles_absolute">
+ 		     $!{comp.RenderedTemplate}
+	   </div>
+	#end	
+	</div>
+#end
+
+#if ( ${main_fixed.size()} > 0 ) 
+	<div class="main_fixed">
+	#foreach( $comp in $main_fixed)
+		   #if($!{comp.RenderedTemplate}!= "")
+    		   #if($!{comp.ComponentTitle}!= "")
+        		<h3>$!{comp.ComponentTitle}</h3>
+        	   #end
+    		   <div class="main_articles_fixed">
+     		     $!{comp.RenderedTemplate}
+    		   </div>
+		   #end	   
+	#end	
+	</div>
+#end
+
+#if ( ${main_centered.size()} > 0 ) 
+	<div class="main_centered">
+	#foreach( $comp in $main_centered)
+ 		     $!{comp.RenderedTemplate}
+	#end	
+	</div>
+#end
+
+#parse("parts/bottom.vm")
