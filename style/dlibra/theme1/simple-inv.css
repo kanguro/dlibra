@@ -411,6 +411,7 @@ OVERRIDED IN simple-inv-2.css
   left splitted 
   -------------*/	
 
+ /* OVERRIDED IN simple-inv-2.css
 .right_splitted h3 {
     clear: both;
     background: #fff;
@@ -419,6 +420,7 @@ OVERRIDED IN simple-inv-2.css
     font: bold 1.3em Tahoma, Arial, Sans-Serif;
     margin: 0 0 0 0;
 }
+*/
 
 .right_splitted {
 	float: right;
@@ -534,6 +536,7 @@ div.menuBar  .menuButton .SearchSelectedButton {
   text-decoration: none;
 }
 
+/* OVERRIDED in simple-inv-2.css
 .SimpleSearchComponentQuery  #query {
 	width: 550px; 
 	border: 1px solid #aaa;
@@ -549,8 +552,9 @@ div.menuBar  .menuButton .SearchSelectedButton {
 	box-shadow:1px 1px 1px #ddd;
 	-moz-box-shadow:1px 1px 1px #ddd;
 	-webkit-box-shadow:1px 1px 1px #ddd;
-}
+}*/
 
+/* OVERRIDED IN simple-inv-2.css
 .SimpleSearchComponentQuery  #search, .AdvancedSearchComponent  #advSubmit{
 	border: 0;
 	padding: 3px 0;
@@ -571,7 +575,7 @@ div.menuBar  .menuButton .SearchSelectedButton {
 	-webkit-box-shadow:1px 1px 1px #ccc;
 	box-shadow:1px 1px 1px #ccc;
 	cursor:pointer;
-}
+} */
 
 	#headSearch {
 	  text-align:center;
@@ -616,6 +620,7 @@ div.menuBar  .menuButton .SearchSelectedButton {
  		width: 240px;
 	}
 	
+/* OVERRIDED IN simple-inv-2.css
 	.SimpleSearchComponentPanel {
 		clear: both;
 		padding: 0 1em;
@@ -625,6 +630,7 @@ div.menuBar  .menuButton .SearchSelectedButton {
 	.extenstionMapItem {
 		margin-top: 4px;
 	}
+*/
 
 div.title {
   margin-left:1em;

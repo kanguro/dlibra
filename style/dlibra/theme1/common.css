@@ -116,7 +116,7 @@ img {
 
 .submit {
 	background:none;
-	background-color: #FF5F3F;
+	background-color: #125491;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	border-radius:2px;
@@ -127,7 +127,7 @@ img {
 	border: 0;
 	padding: 0px 0;
 	width: 90px;
-	margin: 10px 15px 0px 0;
+	margin: 0;
 	color: #FFF;
 	font: bold 1.1em Arial, Sans-Serif;
 	vertical-align:top;  
@@ -135,12 +135,12 @@ img {
 }
 
 .cancel {
-	background-color: #eee;
+	background-color: #3E7BBA;
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	font-size:0.9em;
-	color:#555;
+	color:#fff;
 	width:70px;
 	
 }

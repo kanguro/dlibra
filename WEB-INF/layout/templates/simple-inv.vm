@@ -99,7 +99,7 @@
 		   #foreach( $comp in $left)
  		    #if ( ${comp.RenderedTemplate}!= "" )
 			 #if(${comp.ComponentTitle}!="")
-	 			<h3 class="leftDiv" id="ldi_${velocityCount}"> $!{comp.ComponentTitle} <img class="sh_button" src="${homepageUrl}/style/common/img/icons/s_desc.gif"> </h3> 
+	 			<h3 class="leftDiv" id="ldi_${velocityCount}">$!{comp.ComponentTitle}<img class="sh_button" src="${homepageUrl}/style/common/img/icons/s_desc.gif"> </h3> 
 	 		 #end
 			 <div class="left_box">
 			 	 $!{comp.RenderedTemplate}
@@ -114,7 +114,7 @@
   		   #foreach( $comp in $right)
  		    #if ( $!{comp.RenderedTemplate} != "")
 			 #if(${comp.ComponentTitle} != "")
-	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 			<h3>$!{comp.ComponentTitle}</h3> 
 				 <div class="right_articles">
 			#else
 				 <div class="right_articles notitle">
@@ -130,7 +130,7 @@
    		     	#if ( $!{comp.RenderedTemplate} != "")
 	  		   <div class="right_splitted">
 					 #if(${comp.ComponentTitle} != "")
-	 					<h3> $!{comp.ComponentTitle} </h3> 
+	 					<h3>$!{comp.ComponentTitle}</h3> 
 	 				 #end
 						 <div class="right_splitted_box">
 						 	 $!{comp.RenderedTemplate}
@@ -144,7 +144,7 @@
   		   #foreach( $comp in $rightbottom)
  		    #if ( $!{comp.RenderedTemplate} != "")
 			 #if(${comp.ComponentTitle} != "")
-	 			<h3> $!{comp.ComponentTitle} </h3> 
+	 			<h3>$!{comp.ComponentTitle}</h3> 
 	 		 #end
 			 <div class="right_articles">
 			 	 $!{comp.RenderedTemplate}

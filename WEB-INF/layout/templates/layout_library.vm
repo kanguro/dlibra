@@ -90,19 +90,19 @@ File with macros used by layout templates.
 *#
 #macro(mainMenuLinks)
 <ul class="mainMenuListList">
-	<li class="firstMenuListListElement">
+	<li>
 		<a href="${homepageUrl}${servletName}" accesskey="m" target="_top" >
-			${res.getProperty("nav.HOMEPAGE")}
+			<span>${res.getProperty("nav.HOMEPAGE")}</span>
 		</a>
 	</li>
 	<li>
 		<a href="${homepageUrl}${servletName}/collectiondescription" accesskey="s" target="_top" >
-			$res.getProperty("nav.COLLECTIONS")
+			<span>$res.getProperty("nav.COLLECTIONS")</span>
 		</a>
 	</li>
 	<li>
 		<a href="javascript:showContact('$homepageUrl')" accesskey="c" > 
-		  ${res.getProperty("nav.CONTACT")}
+			<span>${res.getProperty("nav.CONTACT")}</span>
 		</a>
 	</li>
 </ul>	
@@ -111,34 +111,28 @@ File with macros used by layout templates.
 #macro(authorizationLinks)
 	<div class="authLinks">
 	#if($userLoggedIn)
-		<ul class="authorizationLinksList">
 		#if( $userType < 16)
-			<li id="accountLink">
-				<a href="${homepageUrl}${servletName}/account-info" accesskey="a" target="_top" class="registerLink" >
-					<span></span>
-					${res.getProperty("nav.saccount")}
-				</a>
-			</li>
+			<a href="${homepageUrl}${servletName}/account-info" accesskey="a" target="_top" id="loginLinkWithMenu" >
+				<span></span>
+				${res.getProperty("nav.saccount")}
+			</a>
 			#end
-			<li id="logoutListItem">
-				<a href="${logoutPage}" accesskey="r" target="_top" >
-					${res.getProperty("nav.slogout")}
-				</a>
-			</li>
-		</ul>
+			<a href="${logoutPage}" accesskey="r" target="_top" >
+				${res.getProperty("nav.slogout")}
+			</a>
 	#else
 		#if ( $loginLink )	
-			<a href="${loginLink}" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" id="loginLink" >
+			<a href="${loginLink}" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
 		#else
 			#if (  ${homepageUrl.startsWith("https")} ) 
-			  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
+			  <a id="loginLinkWithMenu" class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
 			#else
 			  <script type="text/javascript">
 				$(document).ready(function() {
 				   $('#loginLink').dL_simpleModal();
 				});
 			  </script>	
-			  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
+			  <a id="loginLinkWithMenu" href="${homepageUrl}${servletName}/login-select" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
 			#end
 		#end
 		

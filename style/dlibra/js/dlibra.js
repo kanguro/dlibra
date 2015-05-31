@@ -85,17 +85,17 @@ var PageUtils = {
 		var that = this;
 		
 		// prepare popup event handlers
-		$("#accountLink, #account-menu").bind("mouseover",function(){
+		$("#loginLinkWithMenu, #account-menu").bind("mouseover",function(){
 			that.menuHide = false;
-			var realPos = PageUtils.findRealPosition($("#accountLink")[0]);
+			var realPos = PageUtils.findRealPosition($("#loginLinkWithMenu")[0]);
 			$("#account-menu").css({
 				'position':'absolute',
-				'top':realPos[1] + 25,
+				'top':realPos[1] + 30,
 				'left':realPos[0] - 130
 			}).show();
 		});
 		
-		$("#accountLink, #account-menu").bind("mouseout",function(){
+		$("#loginLinkWithMenu, #account-menu").bind("mouseout",function(){
 			that.menuHide = true;
 			setTimeout("PageUtils.hideAccountMenu()",2000);
 		});
