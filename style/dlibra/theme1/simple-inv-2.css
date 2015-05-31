@@ -155,9 +155,10 @@ h1, h2, h3, h4, h5, h6, #news-theme-content div.greylabel, .asset-abstract .asse
 
 #account-menu {
 	width:160px;
-	background:transparent url('login-buttons.png') scroll -4px -107px;
-	padding:10px;
+/*	background:transparent url('login-buttons.png') scroll -4px -107px;*/
+	padding:21px;
 	font-size:0.8em;
+        background-color: #3E7BBA;
 }
 
 #account-menu img {
@@ -166,11 +167,12 @@ h1, h2, h3, h4, h5, h6, #news-theme-content div.greylabel, .asset-abstract .asse
 }
 
 #account-menu span {
-	background:transparent url('login-buttons.png') scroll -4px -280px;
+/*	background:transparent url('login-buttons.png') scroll -4px -280px; */
 	width:175px;
 	height:20px;
 	margin-bottom:-30px;
 	margin-left:-10px;
+        background-color: #3E7BBA;
 	display:block;
 }
 
