@@ -90,81 +90,68 @@ File with macros used by layout templates.
 *#
 #macro(mainMenuLinks)
 <ul class="mainMenuListList">
-	<li class="mmlEmpty">
-		&nbsp;
-	</li>
-	<li class="mainMenuListItem">
-		<a class="mainMenuOption" href="${homepageUrl}${servletName}" accesskey="m" target="_top" >
+	<li class="firstMenuListListElement">
+		<a href="${homepageUrl}${servletName}" accesskey="m" target="_top" >
 			${res.getProperty("nav.HOMEPAGE")}
 		</a>
 	</li>
-	<li class="mainMenuListItem">
-		<a class="mainMenuOption mainMenuOptionIn" href="${homepageUrl}${servletName}/collectiondescription" accesskey="s" target="_top" >
+	<li>
+		<a href="${homepageUrl}${servletName}/collectiondescription" accesskey="s" target="_top" >
 			$res.getProperty("nav.COLLECTIONS")
 		</a>
 	</li>
-	<li class="mainMenuListItem">
-		<a class="mainMenuOption mainMenuOptionLast" href="javascript:showContact('$homepageUrl')" accesskey="c" > 
+	<li>
+		<a href="javascript:showContact('$homepageUrl')" accesskey="c" > 
 		  ${res.getProperty("nav.CONTACT")}
 		</a>
-	</li>
-	<li class="mmlEmpty mmlEmptyRight">
-		&nbsp;
 	</li>
 </ul>	
 #end
 
 #macro(authorizationLinks)
-		#if($userLoggedIn)
-			<ul class="authorizationLinksList">
-			#if( $userType < 16)
-				 <li id="accountLink">
-   				  	<a href="${homepageUrl}${servletName}/account-info" accesskey="a" target="_top" class="registerLink">
-   				  		<span></span>
-						${res.getProperty("nav.saccount")}
-   				  	</a>
-   				  </li>
-	    	#end
-	    		  <li id="logoutListItem">
-					<a href="${logoutPage}" accesskey="r" target="_top">
-   				  		${res.getProperty("nav.slogout")}
-   				  	</a>
-   				  </li>
-			</ul>
-		#else
+	<div class="authLinks">
+	#if($userLoggedIn)
 		<ul class="authorizationLinksList">
-		<li id="authLoginLinkItem">
-			  #if ( $loginLink )	
-				<a href="${loginLink}" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" id="loginLink" 
-					class="loginLink">
-	 		  #else
-	 		  	#if (  ${homepageUrl.startsWith("https")} ) 
-				  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
-				#else
-				  <script type="text/javascript">
-				    $(document).ready(function() {
-				       $('#loginLink').dL_simpleModal();
-				    });
-				  </script>	
-				  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
-				#end
-			  #end
-				<span></span>
-		      	$res.getProperty("nav.loginin")
-		      </a>
-		</li>
-		<li id="authOrItem">
-			$res.getProperty("nav.or")
-		</li>
-		<li id="authRegisterItem">
-			<a href="${homepageUrl}${servletName}/new-account" accesskey="e" target="_top" class="registerLink">
-				<span></span>
-				$res.getProperty("nav.signup")
-			</a>
-		</li>
+		#if( $userType < 16)
+			<li id="accountLink">
+				<a href="${homepageUrl}${servletName}/account-info" accesskey="a" target="_top" class="registerLink" >
+					<span></span>
+					${res.getProperty("nav.saccount")}
+				</a>
+			</li>
+			#end
+			<li id="logoutListItem">
+				<a href="${logoutPage}" accesskey="r" target="_top" >
+					${res.getProperty("nav.slogout")}
+				</a>
+			</li>
 		</ul>
+	#else
+		#if ( $loginLink )	
+			<a href="${loginLink}" accesskey="l" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" id="loginLink" >
+		#else
+			#if (  ${homepageUrl.startsWith("https")} ) 
+			  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
+			#else
+			  <script type="text/javascript">
+				$(document).ready(function() {
+				   $('#loginLink').dL_simpleModal();
+				});
+			  </script>	
+			  <a class="loginLink" href="${homepageUrl}${servletName}/login-select" accesskey="l" id="loginLink" title="${res.getProperty("LoginSelectionComponent.Thickbox.Title")}" >
+			#end
 		#end
-	
+		
+				<span></span>
+				$res.getProperty("nav.loginin")
+			</a>
+		<a href="${homepageUrl}${servletName}/new-account" accesskey="e" target="_top">
+			<span></span>
+			$res.getProperty("nav.signup")
+		</a>
+		
+		#end
+	</div>
 #end
 
 

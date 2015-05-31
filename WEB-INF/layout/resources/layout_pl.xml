@@ -10,25 +10,24 @@
 <entry key="stat.csv">plik csv</entry>
 <entry key="stat.table">tabele HTML</entry>
 <entry key="main.meta.clasification">publiczny, biblioteka cyfrowa, książka, źródło, edukacja, nauka, projekt</entry>
-<entry key="nav.HOMEPAGE">STRONA GŁÓWNA</entry>
+<entry key="nav.HOMEPAGE">Strona Główna</entry>
 <entry key="nav.loading">ładowanie...</entry>
-<entry key="nav.loginin">zaloguj</entry>
-<entry key="nav.or">lub</entry>
-<entry key="nav.signup">zarejestruj się</entry>
+<entry key="nav.loginin">Zaloguj</entry>
+<entry key="nav.signup">Rejestracja</entry>
 <entry key="nav.saccount">Konto</entry>
 <entry key="nav.slogout">Wyloguj się</entry>
-<entry key="nav.CONTACT">KONTAKT</entry>
+<entry key="nav.CONTACT">Kontakt</entry>
 <entry key="admin.doctypes">typy publikacji</entry>
 <entry key="admin.help">strony pomocy</entry>
-<entry key="admin.logout">wyloguj</entry>
+<entry key="admin.logout">Wyloguj</entry>
 <entry key="admin.charts">wykresy</entry>
 <entry key="admin.start">start</entry>
 <entry key="admin.agents-stats">przeglądarki</entry>
 <entry key="admin.admin">Start</entry>
 <entry key="admin.useraccounts">subskrybcje</entry>
-<entry key="nav.COLLECTIONS">KOLEKCJE</entry>
+<entry key="nav.COLLECTIONS">Kolekcje</entry>
 <entry key="admin.components">informacje - zawartość</entry>
-<entry key="nav.NEWACCOUNT">NOWE KONTO</entry>
+<entry key="nav.NEWACCOUNT">Nowe konto</entry>
 <entry key="main.Directory">Pełny katalog publikacji</entry>
 <entry key="base.Homepage">Strona główna</entry>
 <entry key="main.RSS.Planned">Plany wprowadzania publikacji</entry>
@@ -37,16 +36,16 @@
 <entry key="main.meta.description">dLibra umożliwia dostęp przez Internet do zasobów edukacyjnych, dziedzictwa kulturowego, regionaliów i muzykaliów</entry>
 <entry key="admin.news">wiadomości</entry>
 <entry key="nav.noOfUSERS">obecnie czytających</entry>
-<entry key="nav.ACCOUNT">KONTO</entry>
+<entry key="nav.ACCOUNT">Konto</entry>
 <entry key="main.meta.keywords">dLibra, digital library, biblioteka cyfrowa, biblioteki cyfrowe, metadane, Dublin Core, twórca, publikacja, wydawnictwo, książka, nowela, broszura, druk, księgarnia, czytelnia, platforma system obsługi bibliotek cyfrowych, źródła, wielkopolska biblioteka cyfrowa, naukowa, akademicka, Poznań, Fundacja Bibliotek Naukowych, dlibra, libra, publikowanie, wydawanie, autor, pisarz, poeta, poemat, historia, liryka, proza, poezja, opis bibliograficzny, dziedzictwo kulturowe, katalog, katalogowanie, edukacja, monografia, podręczniki, zabytki piśmiennictwa, regionalia, księgozbiór publiczny</entry>
 <entry key="main.meta.generator">dLibra - biblioteki cyfrowe - system tworzenia i obsługi bibliotek cyfrowych stworzony przez Poznańskie Centrum Superkomputerowo Sieciowe umożliwiający dostęp przez Internet do zasobów edukacyjnych, dziedzictwa kulturowego, regionaliów i muzykaliów</entry>
-<entry key="nav.LOGOUT">WYLOGUJ</entry>
+<entry key="nav.LOGOUT">Wyloguj</entry>
 <entry key="admin.errors">błędy</entry>
 <entry key="admin.nav">Nawigacja</entry>
 <entry key="admin.reports">raporty</entry>
 <entry key="admin.admin-reports">Raporty</entry>
 <entry key="admin.title">dLibra - Panel administracyjny</entry>
-<entry key="nav.LOGIN">LOGOWANIE</entry>
+<entry key="nav.LOGIN">Logowanie</entry>
 <entry key="admin.engine-stats">mechanizm www</entry>
 <entry key="main.RSS.Latest">25 ostatnich publikacji</entry>
 <entry key="admin.admin-news-list">Lista wiadomości</entry>
@@ -73,4 +72,10 @@ treści niektórych publikacji. Upewnij się czy w twojej przeglądarce można w
 <entry key="content.noJS.linkToContent">Kliknij tutaj,</entry>
 <entry key="content.noJS.linkToContentCDN">aby mimo to przeglądać publikację.</entry>
 <entry key="help">Pomoc</entry>
+
+<entry key="base.university.name">Politechnika Gdańska</entry>
+<entry key="base.university.webpage">http://www.pg.edu.pl</entry>
+
+<entry key="base.university.faculty.name">Wydział Elektroniki, Telekomunikacji i Informatyki</entry>
+<entry key="base.university.faculty.webpage">http://eti.pg.edu.pl</entry>
 </properties>

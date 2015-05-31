@@ -8,7 +8,7 @@
 @import "simple-inv-2.css";
 
 a {	
-	color: #5C563C;	
+	color: inherit;	
 	background: inherit; 
 	text-decoration:none;
 }

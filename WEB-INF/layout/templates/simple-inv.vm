@@ -14,7 +14,7 @@
 		<span></span>
 	</div>
 	<div id="mainBaner" class="mainBaner_${userLanguage}">
-		<div id="mainBanerIn">
+		<div id="mainBanerIn" class="contentIn">
 			<div id="mainBanerLanguages">
 				#foreach( $comp in $preheader)
      			  	$!{comp.RenderedTemplate}
@@ -25,25 +25,24 @@
 					<img src="http://cdn.pg.edu.pl/ekontakt-updated-theme/images/logo-pg-small.png">
 				</a>
 			</div>
-			<!-- <a id="mainBanerCoin" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
-				<img src="${homepageUrl}/style/dlibra/${styleVariant}/mb-logo.png"  alt="" />
- 			</a>&nbsp; -->
 			<div id="mainBanerLibraryTitle">
 				<a class="main-library-title" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
 					$!{res.getProperty("base.library.full")}
 				</a>
 			</div>
 			<div class="site-faculty-logo">
-				<a id="mainBanerCoin" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
+				<a id="mainBanerCoin" href="$!{res.getProperty("base.university.faculty.webpage")}" title="$!{res.getProperty("base.university.faculty.name")}">
 					<img src="${homepageUrl}/style/dlibra/${styleVariant}/mb-logo.png"  alt="" />
 				</a>
-			</dib>
+			</div>
 		</div>
 	</div>
 	<div id="mainMenu">
-		<div id="listMainMenu">
+		<div class="contentIn">
+		#authorizationLinks()
+		<nav id="listMainMenu">
 			#mainMenuLinks()
-			#authorizationLinks()
+		</nav>
 		</div>
 	</div>
 	<div class="headerBackground"></div>
