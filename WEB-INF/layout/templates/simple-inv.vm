@@ -20,14 +20,24 @@
      			  	$!{comp.RenderedTemplate}
 				#end	
 			</div>
-			<a id="mainBanerCoin" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
+			<div id="mainBanerUniversityLogo">
+				<a id="mainBanerCoin" href="$!{res.getProperty("base.university.webpage")}" title="$!{res.getProperty("base.university.name")}">
+					<img src="http://cdn.pg.edu.pl/ekontakt-updated-theme/images/logo-pg-small.png">
+				</a>
+			</div>
+			<!-- <a id="mainBanerCoin" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
 				<img src="${homepageUrl}/style/dlibra/${styleVariant}/mb-logo.png"  alt="" />
- 			</a>&nbsp;
-			 <h1>
-				<a href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
+ 			</a>&nbsp; -->
+			<div id="mainBanerLibraryTitle">
+				<a class="main-library-title" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
 					$!{res.getProperty("base.library.full")}
 				</a>
-			</h1>
+			</div>
+			<div class="site-faculty-logo">
+				<a id="mainBanerCoin" href="${homepageUrl}" title="$!{res.getProperty("base.library.full")}">
+					<img src="${homepageUrl}/style/dlibra/${styleVariant}/mb-logo.png"  alt="" />
+				</a>
+			</dib>
 		</div>
 	</div>
 	<div id="mainMenu">

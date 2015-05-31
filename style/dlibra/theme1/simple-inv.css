@@ -2,21 +2,10 @@
    this css is based on:
 	   project: internet services template
 	   author: luka cvrk (www.solucija.com) */
-
-   
 /* default styles
    -------------- */
 
 @import "simple-inv-2.css";
-   
-body {
-	padding: 0; 
-	margin: 0;
-	font:10pt "trebuchet ms", tahoma, sans-serif;
-	line-height: 1.5em;
-	background: rgba(198, 210, 216, 0.3);
-	color: #A6C6FF; 
-}
 
 a {	
 	color: #5C563C;	
@@ -386,6 +375,9 @@ td.session_count {
 	margin-left:5px;
 }
 
+/*
+OVERRIDED IN simple-inv-2.css
+
 .right h3, .search_field h3 {
 	background: #fff;
 	color: #3FBAF4;
@@ -394,7 +386,7 @@ td.session_count {
 	margin: 0 0 1px 0;
 	margin-top:20px;
 	margin-bottom:35px;
-}
+}*/
 
 .search_field h3 {
     font-size: 12px;
