@@ -609,15 +609,6 @@
     	       <place>right</place>
    	       	   <position>1</position>
 			</component>
-			<component name="pl.psnc.dlibra.web.comp.pages.components.AsyncComponentWrapper">
-     	       <id>latest</id>
-	           <place>rightSplitted</place>
-     	       <position>2</position>
-			</component>
-			<component name="pl.psnc.dlibra.web.comp.pages.components.BasicCollectionStatsComponent">
-    	       <place>rightSplitted</place>
-   	       	   <position>1</position>
-			</component>
 		</components>	
   	</page>
   	
