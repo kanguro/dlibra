@@ -3,7 +3,7 @@
 <properties>
 <comment>UTF8</comment>
 <entry key="CollectionDescriptionComponent.NoPublications">No publications in collection and its all subcollections</entry>
-<entry key="CollectionDescriptionComponent.Title">Collection Description: ${collection.Label}</entry>
+<entry key="CollectionDescriptionComponent.Title">${collection.Label}</entry>
 <entry key="CollectionDescriptionComponent.PublicationCountRecursive">Number of publiactions in all subcollections</entry>
 <entry key="CollectionDescriptionComponent.PublicationCountThis">Number of publications in collection</entry>
 <entry key="CollectionDescriptionComponent.PublicationCountThisAndRecursive">Number of publications in collection and its all subcollections</entry>

@@ -16,8 +16,6 @@ $().ready(function(){
   if(parseInt(pubCount) > 0){
      if(jQuery.browser.msie && jQuery.browser.version.indexOf("6.") > -1 ){
 	 	$("#cdc_container").css({'height':'200px'});
-	 }else{
-	 	$("#cdc_container").css({'min-height':'150px'});
 	 }
   }
 });
