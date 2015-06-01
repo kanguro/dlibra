@@ -76,8 +76,8 @@ Disabled support of the <b><i>JavaScript</i></b> may result in display errors of
 <entry key="help">Help</entry>
 
 <entry key="base.university.name">Gdansk Univeristy of Technology</entry>
-<entry key="base.university.webpage">http://www.pg.edu.pl/welcome?p_l_id=2601414&p_v_l_s_g_id=0&</entry>
+<entry key="base.university.webpage">http://www.pg.edu.pl</entry>
 
 <entry key="base.university.faculty.name">Faculty of Electronics, Telecommunications and Informatics</entry>
-<entry key="base.university.faculty.webpage">http://eti.pg.edu.pl/main-menu?p_l_id=25795229&p_v_l_s_g_id=0&</entry>
+<entry key="base.university.faculty.webpage">http://eti.pg.edu.pl</entry>
 </properties>
