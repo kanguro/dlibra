@@ -1,0 +1,34 @@
+<div class="AddressComponent_div" >
+	<div id="aditionalText" class="blankLinkArea">
+		© 2014-2015, Politechnika Gdańska. Wszelkie prawa zastrzeżone.
+  	</div>
+	#set($soft = "${res.getProperty('AddressComponent.Soft')}")
+	<div class="blankLinkArea">
+		${res.getProperty("AddressComponent.dlibra.text")} <a id="moreLink2" href="${homepageUrl}${mainServletName}/help?id=about-${soft.toLowerCase()}">
+			${soft} ${version} 
+		</a>&nbsp;
+	</div>  
+	<div>
+		$!{res.getProperty("AddressComponent.dlibra.translation")}
+	</div>
+</div>  
+<script type="text/javascript"><!--
+	$(document).ready(function() {
+	  $(".blankLinkArea > a").each(function(i) {
+	     if ( (this.id != 'moreLink') && (this.id != 'moreLink2') ) {
+		     this.target="_blank"; 
+		 }
+	  });
+	  
+	  $("#moreLink").bind("click",function(e){
+	  	e.preventDefault();
+		showHelp('participants', '${homepageUrl}');
+		return false;
+	  });
+	  $("#moreLink2").bind("click",function(e){
+	    e.preventDefault();
+	  	showHelp('about-${soft.toLowerCase()}', '${homepageUrl}');
+		return false;
+	   });
+	});
+// --></script>
