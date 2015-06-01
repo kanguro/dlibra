@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>UTF8</comment>
+<entry key="AddressComponent.Title">About..</entry>
+<entry key="AddressComponent.dlibra.text">
+This page is based on framework</entry>
+<entry key="AddressComponent.Institution2.link">http://institution2.org</entry>
+<entry key="AddressComponent.Institution2">Institution 2</entry>
+<entry key="AddressComponent.Institution.text"> Page maintained by </entry>
+<entry key="AddressComponent.More.link"> more...</entry>
+<entry key="AddressComponent.Institution1.link">http://institution1.org</entry>
+<entry key="AddressComponent.Institution1">Institution 1</entry>
+<entry key="AddressComponent.Soft">dLibra</entry>
+</properties>

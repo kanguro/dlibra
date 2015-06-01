@@ -1,0 +1,32 @@
+ <script type="text/javascript"><!--
+ 	   DIR_ID = "${collection.Id}";
+
+	   $().ready(function(){
+			var currDir = '${collection.Id}';
+			var exhibit = getCookie('lastExhibit');
+			if(currDir == exhibit){
+				var exhDesc = '${res.getProperty("CollectionBoxComponent.nav.Exh-description")}';
+				$("#collBoxTitle").text('${res.getProperty("CollectionBoxComponent.TitleExh")}');
+				$("#cbc_CollectionDescription").text(exhDesc).attr('href','${homepageUrl}${servletName}/exhibitdescription?dirids=${collection.Id}');
+			}
+	   });
+	   
+ //--></script>
+ <div class="collBoxContainer">
+ <ul class="indexSearchList">
+	<li>
+		#point() <a id="cbc_CollectionDescription" class="menu functionAnchor" href="${homepageUrl}${servletName}/collectiondescription?dirids=${collection.Id}">
+		#if($pageId == "collectiondescription")<b>#end
+				$res.getProperty("CollectionBoxComponent.nav.Collection-description")
+		#if($pageId == "collectiondescription")</b>#end
+		</a>
+	</li>			
+	<li>
+		#point() <a class="menu functionAnchor" href="${homepageUrl}${servletName}/pubindex?dirids=${collection.Id}">
+		#if($pageId == "pubindex")<b>#end
+		$res.getProperty("CollectionBoxComponent.nav.Edition-index")
+		#if($pageId == "pubindex")</b>#end
+		</a>
+	</li>		
+ </ul>
+</div>

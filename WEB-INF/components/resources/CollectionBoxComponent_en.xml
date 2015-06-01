@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>UTF8</comment>
+<entry key="CollectionBoxComponent.Title">Collection</entry>
+<entry key="CollectionBoxComponent.nav.PlannedPublications">Planned publications</entry>
+<entry key="CollectionBoxComponent.nav.Collection-description">Collection description</entry>
+<entry key="CollectionBoxComponent.nav.Edition-index">Publications list</entry>
+</properties>
