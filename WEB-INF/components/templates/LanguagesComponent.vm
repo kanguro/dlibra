@@ -1,0 +1,8 @@
+#if ( ${pageId.startsWith("admin")} ) #set( $link = "/admin" ) #end
+<span class="LanguagesComponent">
+	#foreach( $lang in ${langs.keySet()} )
+	<a href="${homepageUrl}${servletName}$!{link}?action=ChangeLanguageAction&amp;language=${lang}" target="_top" title="${langs.get(${lang})}">
+		<img src="${homepageUrl}/style/common/img/icons/languages/${lang}.gif" alt="${langs.get(${lang})}" height="15px"/>
+	</a>&nbsp;
+	#end
+</span>

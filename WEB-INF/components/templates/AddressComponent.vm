@@ -1,6 +1,6 @@
 <div class="AddressComponent_div" >
 	<div id="aditionalText" class="blankLinkArea">
-		© 2014-2015, Politechnika Gdańska. Wszelkie prawa zastrzeżone.
+		© 2014-2015 Politechnika Gdańska. Wszelkie prawa zastrzeżone.
   	</div>
 	#set($soft = "${res.getProperty('AddressComponent.Soft')}")
 	<div class="blankLinkArea">
